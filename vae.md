@@ -26,13 +26,12 @@
 -   <https://github.com/debasishg/ml-readings/blob/master/vae.md>
 -   <https://github.com/matthewvowels1/Awesome-VAEs>
 
-
 ## Models
 
 | model | paper | implementation |
 | ----- | ----- | ---- |
 | DAGMM     | AUTOENCODING GAUSSIAN MIXTURE MODEL FOR UNSUPERVISED ANOMALY DETECTION     | <https://github.com/danieltan07/dagmmDEEP>     |
-| GRU-VAE  | Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network | <https://github.com/smallcowbaby/OmniAnomalyRobust> |
+| GRU-VAE  | Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network | <https://github.com/NetManAIOps/OmniAnomaly> |
 | GMM-GRU-VAE | Time Series Anomaly Detection: A GRU-based Gaussian Mixture Variational Autoencoder Approach  | <https://github.com/jariasf/GMVAE>  |
 | GMM-GRU-VAE | DEEP UNSUPERVISED CLUSTERING PWITH GAUSSIAN MIXTURE VARIATIONAL AUTOENCODERS | <https://github.com/psanch21/VAE-GMVAEMultidimensional> |
 | LSTM-VAE | Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-based Variational Autoencoder | <https://github.com/Danyleb/Variational-Lstm-Autoencoder> |
