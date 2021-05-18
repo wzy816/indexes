@@ -63,6 +63,13 @@
   - https://github.com/jariasf/GMVAE/blob/master/tensorflow/networks/Networks.py
   - https://github.com/jariasf/GMVAE/blob/master/tensorflow/losses/LossFunctions.py
 
+### VAE with gumble softmax distribution
+
+- gumble-softmax paper
+  - <https://arxiv.org/abs/1611.01144>
+  - <https://arxiv.org/abs/1611.00712>
+- code <https://github.com/ericjang/gumbel-softmax>
+
 | model             | paper                                                                                              | implementation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | anatomy |
 | ----------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | DAGMM             | AUTOENCODING GAUSSIAN MIXTURE MODEL FOR UNSUPERVISED ANOMALY DETECTION                             | [dagmmDEEP]<https://github.com/danieltan07/dagmmDEEP>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
