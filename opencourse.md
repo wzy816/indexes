@@ -1,6 +1,6 @@
-# open source
+# open course
 
-## Basic
+## CS Basic
 
 - [15-213 Introduction to Computer Systems](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%222bfb939e-6ed8-4220-a877-c4f96a126b48%22) :movie_camera:
 - [15-210 Parallel and Sequential Data Structures and Algorithms](http://www.cs.cmu.edu/afs/cs/academic/class/15210-s16/www/schedule.html)
@@ -9,7 +9,7 @@
 - [6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments)
 - [6.046 Design and Analysis of Algorithm](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/lecture-videos/) :movie_camera:
 
-## Advanced
+## CS Advanced Topics
 
 - [15-445/645 Database Systems](http://15445.courses.cs.cmu.edu/fall2017/)
 - [15-441 Computer Networks](http://www.cs.cmu.edu/~prs/15-441-F15/syllabus.html)
