@@ -17,13 +17,15 @@
 - [6.851 Advanced Data Structure](https://courses.csail.mit.edu/6.851/spring21/lectures/) :movie_camera:
 - [6.854 Advanced Algorithm](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c) :movie_camera:
 
-## AI
+## Machine Learning
 
 - [Stats 306B: Methods for Applied Statistics: Unsupervised Learning](https://web.stanford.edu/~lmackey/stats306b/)
 - [CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/http://cs231n.stanford.edu/)
 - [CS229 Machine Learning](http://cs229.stanford.edu/)
 - [CS224n Natural Language Processing](https://web.stanford.edu/class/cs224n/)
 - [Probablistic Graphical Models](https://www.coursera.org/specializations/probabilistic-graphical-models)
+- [YSDA Natural Language Processing course](https://github.com/yandexdataschool/nlp_course)
+- [NLP || Dan Jurafsky || Stanford University](https://www.youtube.com/watch?v=oWsMIW-5xUc&list=RDCMUC5zx8Owijmv-bbhAK6Z9apg&start_radio=1&rv=oWsMIW-5xUc&t=13&t=0) :movie_camera:
 
 ## Battery
 
