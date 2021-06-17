@@ -1,3 +1,3 @@
 # INDEXES
 
-A list of books, papers and codes that are beautifully indexed.
+A beautifully-indexed list of blogs, books, papers and codes.
