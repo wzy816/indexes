@@ -39,7 +39,7 @@ Use word-to-word co-occurrence matrix. Evaluation methods includes word analogy 
 - GloVe: Global Vectors for Word Representation :book:
 - [website](https://nlp.stanford.edu/projects/glove/)
 
-### papers
+### Others
 
 - Efficient Estimation of Word Representations in Vector Space :book:
 - A Neural Probabilistic Language Model :book:
@@ -48,6 +48,7 @@ Use word-to-word co-occurrence matrix. Evaluation methods includes word analogy 
 - An empirical study of smoothing techniques for language modeling :book:
 - Deep contextualized word representation :book:
   - propose ELMO
+- BERT: Pre-training of Deep Bidirectional Transformers for Languange Understanding :book:
 
 ## Word Segmentation
 

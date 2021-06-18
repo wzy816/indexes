@@ -1,5 +1,59 @@
 # machine learning
 
+## Bayesian
+
+- [Conditional probability](https://setosa.io/ev/conditional-probability/)
+- ZhuSuan: A Library for Bayesian Deep Learning :book:
+- Gaussian Processes for Machine Learning :book:
+- [Categorical Reparameterization with Gumbel-Softmax](https://www.youtube.com/watch?v=JFgXEbgcT7g) :book:
+
+## Hidden Markov Models
+
+- A Revealing Introduction to Hidden Markov Models :book:
+
+## Conditional Random Fields
+
+- Conditional Random Fields Probabilistic Models for Segmenting and Labeling Sequence Data :book:
+
+## RBM
+
+- [A Beginner's Guide to Restricted Boltzmann Machines (RBMs)](https://wiki.pathmind.com/restricted-boltzmann-machine)
+
+## CNN
+
+- [Example of 2D Convolution](http://www.songho.ca/dsp/convolution/convolution2d_example.html)
+
+## RNN
+
+- DRAW: A Recurrent Neural Network For Image Generation :book:
+  - use spatial attention + sequential vae to generate image
+  - implementation
+    https://github.com/ericjang/draw tf
+    https://github.com/ikostrikov/TensorFlow-VAE-GAN-DRAW tf
+    https://github.com/vivanov879/draw torch
+    https://github.com/chenzhaomin123/draw_pytorch pytorch
+    https://github.com/suhoy901/DRAW_pytorch pytorch
+    https://github.com/conan7882/DRAW-recurrent-image-generation tf
+    https://github.com/Natsu6767/Generating-Devanagari-Using-DRAW pytorch
+
+## t-SNE & PCA
+
+- Visualizing Data using t-SNE :book:
+- Mixtures of Probabilistic Principal Component Analysers :book:
+
+## Clustering
+
+- A Survey of Correlation Clustering :book:
+- Correlation Clustering :book:
+
+## Kernel Density Estimation
+
+- [Understanding Kalman Filters, Part 1: Why Use Kalman Filters?](https://mathisonian.github.io/kde/) :movie_camera:
+
+## Kalmen Filters
+
+- <https://www.youtube.com/watch?v=mwn8xhgNpFY>
+
 ## SVM
 
 - One-Class SVMs for Document Classification :book:
@@ -38,3 +92,12 @@
 ## Training
 
 - Population Based Training of Neural Networks :book:
+
+## Datasets
+
+- [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
+- Evaluating Real-time Anomaly Detection Algorithms - the Numenta Anomaly Benchmark :book:
+  - introduce numenta benchmark dataset and score system
+  - <https://github.com/numenta/NAB/tree/master/data>
+- Toward Credible Evaluation of Anomaly-Based Intrusion-Detection Methods :book:
+  - compare 3 intrusion detection methods: signature-based, anomaly-based and specification-based
