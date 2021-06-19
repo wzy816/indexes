@@ -26,9 +26,3 @@
 - [Probablistic Graphical Models](https://www.coursera.org/specializations/probabilistic-graphical-models)
 - [YSDA Natural Language Processing course](https://github.com/yandexdataschool/nlp_course)
 - [NLP || Dan Jurafsky || Stanford University](https://www.youtube.com/watch?v=oWsMIW-5xUc&list=RDCMUC5zx8Owijmv-bbhAK6Z9apg&start_radio=1&rv=oWsMIW-5xUc&t=13&t=0) :movie_camera:
-
-## Battery
-
-- [ECE4710/5710: Modeling, Simulation, and Identification of Battery Dynamics](http://mocha-java.uccs.edu/ECE5710/index.html)
-- [ECE5720: Battery Management and Control](http://mocha-java.uccs.edu/ECE5720/index.html)
-- [Anomaly Detection | Multivariate Gaussian Distribution](https://www.youtube.com/watch?v=JjB58InuTqM) :movie_camera:

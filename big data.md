@@ -15,6 +15,7 @@
 ## Data Mining
 
 - [《李航 - 统计学习方法》学习笔记](https://windmissing.github.io/LiHang-TongJiXueXiFangFa/)
+- [数据挖掘概览](https://wizardforcel.gitbooks.io/data-mining-book/content/)
 
 ## 三驾马车
 
