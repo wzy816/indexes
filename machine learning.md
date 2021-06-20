@@ -16,6 +16,8 @@
 - ZhuSuan: A Library for Bayesian Deep Learning :book:
 - Gaussian Processes for Machine Learning :book:
 - [Categorical Reparameterization with Gumbel-Softmax](https://www.youtube.com/watch?v=JFgXEbgcT7g) :book:
+- [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712)
+  - <https://github.com/ericjang/gumbel-softmax>
 
 ## Hidden Markov Models
 
@@ -275,6 +277,7 @@
   - <https://github.com/wnhsu/FactorizedHierarchicalVAE>
   - Fully-Connected Factorized Hierarchical VAE <https://github.com/wnhsu/FactorizedHierarchicalVAE/blob/github_FHVAE/src/models/fc_fhvae.py>
   - Recurrent Factorized Hierarchical VAE <https://github.com/wnhsu/FactorizedHierarchicalVAE/blob/github_FHVAE/src/models/rec_fhvae.py#L283>
+  - Scalable Factorized Hierarchical Variational Autoencoder Training <https://github.com/wnhsu/ScalableFHVAE>
 - Learning Deep Disentangled Embeddings With the F-Statistic Loss
   - explained the relationship between deep embedding and disentanglement
   - notes on <https://medium.com/datadriveninvestor/paper-review-learning-deep-disentangled-embeddings-with-the-f-statistic-loss-neurips-2018-b6a84828a24b>
@@ -330,6 +333,9 @@
   - add encoder in normal GAN to learn inverse mapping
   - use alternating gradient descent to train
   - simple encoder doesn't work for complex dataset, show best result on MNIST
+- Disentangling factors of variation in dtheep representations using adversarial training
+  - <https://github.com/MichaelMathieu/factors-variation>
+  - <https://github.com/ananyahjha93/disentangling-factors-of-variation-using-adversarial-training>
 
 ## Training
 
