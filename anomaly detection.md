@@ -30,7 +30,7 @@
   - score calculation method: using new data to calculate LOF(k-nearest neighbour) at latent space
   - use only visual comparison to facilitate interpretation
 - Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network :book:
-  - propose OmniAnomaly :framed_picture: :notebook:, a GRU+VAE model
+  - propose OmniAnomaly, a GRU+VAE model
   - use POT to automatically select threshold
   - <https://www.youtube.com/watch?v=ERb_itqarsE>
   - 对于多维时序，要从整体层面而不是单个维度层面考虑异常检测，之前多维时序异常检测，要么用了 deterministic，要么忽略了 temporal dependency
@@ -63,7 +63,7 @@
   - use GMVAE for clustering, gaussian misture as prior
   - <https://github.com/psanch21/VAE-GMVAEMultidimensional>
 - Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications :book:
-- GMVAE :framed_picture: :notebook:
+- GMVAE
   - <https://github.com/jariasf/GMVAE>
 - Adversarial VAE
   - Variational Autoencoder with Gaussian Anomaly Prior Distribution for Anomaly Detection
