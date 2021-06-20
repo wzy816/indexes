@@ -33,3 +33,13 @@
 - Ontology Development 101: A Guide to Creating Your First Ontology :book:
 - Ontology Representation & Querying for Realizing Semantics-driven Applications :book:
 - Who's afraid of Ontology? :book:
+
+## Linux
+
+- linux 内核设计与实现
+- 深入理解 linux 内核
+- linux 内核源代码景分析
+
+## network
+
+- 《Computer Networks, Fifth Edition - A Systems Approach》

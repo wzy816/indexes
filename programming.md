@@ -34,6 +34,8 @@
 - [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs)
 - [Typescript Deep Dive](https://basarat.gitbook.io/typescript/)
 - NODE.JS 入门 :book:
+- <https://30secondsofcode.org/#minn>
+- <https://github.com/stephentian/33-js-concepts>
 
 ## Latex
 
@@ -59,3 +61,17 @@
 - [数据结构与算法之美](https://datastructure.xiaoxiaoming.xyz/#/README)
 - 背包问题九讲 :book:
 - [OI Wiki](https://oi-wiki.org/basic/)
+- [algorithm part 1](https://www.coursera.org/learn/algorithms-part1)
+- introduction to algorithms
+- An Introduction to the Analysis of Algorithms
+- Handbook of Data Structures and Applications
+- 《编程珠玑》
+- 《算法艺术与信息学竞赛算法》
+- 《算法竞赛入门经典》
+- Purely Functional Data Structures
+- Pearls of Functional Algorithm Design
+- Distributed Algorithm: An Intuitive Approach
+- Hacker's Delight
+- Algorithms on Strings
+- Foundations of Multidimensional and Metric Data Structures(The Morgan Kaufmann Series in Computer Graphics)
+- Clever Algorithms: Nature-inspired Programming Recipes

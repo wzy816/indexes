@@ -26,3 +26,12 @@
 - [Probablistic Graphical Models](https://www.coursera.org/specializations/probabilistic-graphical-models)
 - [YSDA Natural Language Processing course](https://github.com/yandexdataschool/nlp_course)
 - [NLP| Dan Jurafsky| Stanford University](https://www.youtube.com/watch?v=oWsMIW-5xUc&list=RDCMUC5zx8Owijmv-bbhAK6Z9apg&start_radio=1&rv=oWsMIW-5xUc&t=13&t=0) :movie_camera:
+
+## Math
+
+- <https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/index.htm>
+- <https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm>
+- [可汗学院公开课：线性代数](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Flinearalgebra.html)
+- [麻省理工公开课：线性代数](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fdaishu.html)
+- [麻省理工学院公开课：多变量微积分](https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fmultivariable.html)
+- [省理工学院公开课：单变量微积分](https://open.163.com/newview/movie/courseintro?newurl=M6GLI5A07)

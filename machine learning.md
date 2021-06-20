@@ -1,5 +1,15 @@
 # machine learning
 
+## conference
+
+- NIPS, Neural Information Processing Systems <https://nips.cc/>
+- ICML, International Conference on Machine Learning <https://icml.cc>
+- UAI(AUAI), Association for Uncertainty in Artifical Intelligence <http://www.auai.org/>
+- AISTATS, Artificial Intelligence and Statistics <http://www.aistats.org/>
+- JMLR, Journal of Machine Learning Research <http://jmlr.org/>
+- IJCAI, International Joint Conference on Artifical Intelligence <http://ijcai.org/>
+- AAAI, Association for the Advancement of Aritifical Intelligence <http://www.aaai.org/home.html>
+
 ## General & Critical
 
 - Deep Learning: A Critical Appraisal :book:
@@ -9,6 +19,18 @@
 - [Weight Agnostic Neural Networks ADAM GAIER Google Brain](https://weightagnostic.github.io/) :book:
 - a mostly complete chart of neural networks :book:
 - [Thought as a Technology](http://cognitivemedium.com/tat/index.html)
+- <https://github.com/Avik-Jain/100-Days-Of-ML-Code>
+- Pattern Recognition and Machine Learning, Christopher M. Bishop,
+- Graphical Models Exponential Families and Variational Inference
+- Machine Learning A Probabilistic Perspective
+- Probabilistic Graphical Models Principles and Techniques
+  - <https://www.youtube.com/playlist?list=PL50E6E80E8525B59C>
+- Convex Optimization, Stephen Boyd
+- Artificial intelligence: A Modern Approach, Stuart Jonathan Russell 和 Peter Norvig
+- [deep learning](https://www.deeplearningbook.org/)
+- 《集体智慧编程》
+- 《AnIntroduction to Statistical Learning》
+- 《the elements of statistical learning》
 
 ## Bayesian
 

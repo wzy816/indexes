@@ -21,6 +21,8 @@
 - Fully Dynamic Constrained Delaunay Triangulations :book:
 - Constrained Delaunay Triangulations :book:
 - Theoretically Guaranteed Delaunay Mesh Generation :book:
+- Learning OpenCV
+  - 适合对计算机视觉和图像处理有基本了解的人
 
 ## gltf
 
