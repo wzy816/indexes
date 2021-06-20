@@ -25,4 +25,4 @@
 - [CS224n Natural Language Processing](https://web.stanford.edu/class/cs224n/)
 - [Probablistic Graphical Models](https://www.coursera.org/specializations/probabilistic-graphical-models)
 - [YSDA Natural Language Processing course](https://github.com/yandexdataschool/nlp_course)
-- [NLP || Dan Jurafsky || Stanford University](https://www.youtube.com/watch?v=oWsMIW-5xUc&list=RDCMUC5zx8Owijmv-bbhAK6Z9apg&start_radio=1&rv=oWsMIW-5xUc&t=13&t=0) :movie_camera:
+- [NLP| Dan Jurafsky| Stanford University](https://www.youtube.com/watch?v=oWsMIW-5xUc&list=RDCMUC5zx8Owijmv-bbhAK6Z9apg&start_radio=1&rv=oWsMIW-5xUc&t=13&t=0) :movie_camera:

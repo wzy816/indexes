@@ -166,6 +166,8 @@
 - Adaptive-Halting Policy Network for Early Classification :book:
   - a model to handle both earliness and accuracy of classification of time series
   - propose LSTM to generate low-dimensional representation, a controller network
+- Anomaly Detection: Algorithms, Explanations, Applications :book:
+  - <https://www.youtube.com/watch?v=12Xq9OLdQwQ>
 
 ## Benchmark
 

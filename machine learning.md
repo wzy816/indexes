@@ -75,7 +75,7 @@
 
 ## Kernel Density Estimation
 
-- [Understanding Kalman Filters, Part 1: Why Use Kalman Filters?](https://mathisonian.github.io/kde/) :movie_camera:
+- [Understanding Kalman Filters, Part 1: Why Use Kalman Filters?](https://mathisonian.github.io/kde/) :movie_camera: :framed_picture:
 
 ## Kalmen Filters
 
@@ -96,6 +96,12 @@
 
 - [Gaussian Mixture Models Explained](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
 - [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
+- [Mixture Models 3: multivariate Gaussians](https://www.youtube.com/watch?v=TG6Bh-NFhA0)
+- [Mixture Models 5: how many Gaussians?](https://www.youtube.com/watch?v=BWXd5dOkuTo)
+
+## EM
+
+- [Expectation Maximization: how it works](https://www.youtube.com/watch?v=iQoXFmbXRJA)
 
 ## Attention Mechanism & Transformer
 
@@ -174,7 +180,7 @@
   - 2-stage approach: 1. Train a hierarchical VQ-VAE 2. fit a PixelCNN in prior
   - <https://github.com/deepmind/sonnet/blob/v2/examples/vqvae_example.ipynb>
   - <https://github.com/rosinality/vq-vae-2-pytorch>
-  - <https://github.com/unixpickle/vq-vae-2> |
+  - <https://github.com/unixpickle/vq-vae-2>
 - SOM-VAE INTERPRETABLE DISCRETE REPRESENTATION LEARNING ON TIME SERIES :book:
   - user self-organizing map and markov in latent space
   - <https://github.com/KurochkinAlexey/SOM-VAE>
@@ -188,7 +194,7 @@
   - <https://magenta.tensorflow.org/sketch_rnn>
 - Tutorial on Variational Autoencoders :book:
 - Auto-Encoding Variational Bayes :book:
-- [Lecture 13 | Generative Modelse](https://www.youtube.com/watch?v=5WoItGTWV54&t=1592s) :book
+- [Lecture 13 Generative Modelse](https://www.youtube.com/watch?v=5WoItGTWV54&t=1592s) :book
 - [Kullback-Leibler Divergence Explaine](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
 - [Autoencoders and Representation Learning](https://www.youtube.com/watch?v=R3D/NKE3zKFk&t=116s)
 - LATENT CONSTRAINTS: LEARNING TO GENERATE CONDITIONALLY FROM UNCONDITIONAL GENERATIVE MODELS :book:
@@ -297,6 +303,8 @@
   - <https://github.com/google-research/disentanglement_lib>
 - Hierarchical Disentangled Representations :book:
   - detail explaination on ELBO
+- From Deep Learning of Disentangled Representations to Higher-level Cognition :movie_camera: :book:
+  - <https://www.youtube.com/watch?v=Yr1mOzC93xs>
 
 ## GAN
 
@@ -363,3 +371,9 @@
   - use user's check-in data to build graph
   - user adversarial learning for graph representation
 - Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion :book:
+
+## autonomous driving
+
+- [Learning to Drive in a Day](https://arxiv.org/pdf/1807.00412.pdf)
+- [Deep Reinforcement Learning framework for Autonomous Driving](https://arxiv.org/pdf/1704.02532.pdf)
+- [MarIQ](https://www.youtube.com/watch?v=Tnu4O_xEmVk)

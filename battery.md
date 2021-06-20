@@ -4,7 +4,7 @@
 
 - [ECE4708/5710: Modeling, Simulation, and Identification of Battery Dynamics](http://mocha-java.uccs.edu/ECE5710/index.html)
 - [ECE5718: Battery Management and Control](http://mocha-java.uccs.edu/ECE5720/index.html)
-- [Anomaly Detection | Multivariate Gaussian Distribution](https://www.youtube.com/watch?v=JjB56InuTqM) :movie_camera:
+- [Anomaly Detection Multivariate Gaussian Distribution](https://www.youtube.com/watch?v=JjB56InuTqM) :movie_camera:
 
 ## SOH & SOC
 

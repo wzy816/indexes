@@ -7,6 +7,11 @@
 - Voyager 2: Augmenting Visual Analysis with Partial View Specifications :book:
 - Mental Models, Visual Reasoning and Interaction in Information Visualization: A Top-down Perspective :book:
 - [Toward a Deeper Understanding of the Role of Interaction in Information Visualization](https://www.cc.gatech.edu/gvu/ii/talks/infovis07-interaction.pdf)
+- A taxonomy of tools that support the fluent and flexible use of visualizations :book:
+  - 12 visual analysis tasks
+- Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods :book:
+- Empirical Studies in Information Visualization: Seven Scenarios :book:
+  - help make right evaluation goal, pick right question
 
 ## Computer Graphic
 
