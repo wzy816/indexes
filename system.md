@@ -31,7 +31,7 @@
 ## Ontology
 
 - Ontology Development 101: A Guide to Creating Your First Ontology :book:
-- Ontology Representation & Querying for Realizing Semantics-driven Applications :book:
+- Ontology Representation & Querying for Realizing Semantics-driven Applications 📖
 - Who's afraid of Ontology? :book:
 
 ## Linux
@@ -43,3 +43,4 @@
 ## network
 
 - 《Computer Networks, Fifth Edition - A Systems Approach》
+- [network fundamentals](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8) 🎥
