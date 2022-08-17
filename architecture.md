@@ -1,0 +1,97 @@
+# architecture
+
+建筑
+
+## my wish list
+
+- The Autopoiesis of Architecture, Volume I: A New Framework for Architecture by Patrik Schumacher
+- We Have Never Been Modern by Bruno Latour, Catherine Porter
+- Complexity and Contradiction in Architecture by Robert Venturi, Vincent Scully
+- Learning from Las Vegas - Revised Edition: The Forgotten Symbolism of Architectural Form by Robert Venturi, Steven Izenour
+- Architecture and Utopia: Design and Capitalist Development by Manfredo Tafuri, La Penta, Barbara Luigia
+- Pamphlet Architecture 35: Going Live, From States to Systems by Pierre Belanger
+- Of Grammatology by Jacques Derrida, Gayatri Chakravorty Spivak
+- Writing and Difference by Jacques Derrida, Alan Bass Offered by textbooks_source.
+- The Structuralist Controversy: The Languages of Criticism and the Sciences of Man by Richard A. Macksey
+- Postmodernism, or, The Cultural Logic of Late Capitalism (Post-Contemporary Interventions) by Fredric Jameson
+- Architecture Culture: 1943-1968 (Columbia Books of Architecture) by Joan Ockman Offered by Max Booker.
+- Computational Neuroscience and Cognitive Modelling: A Student′s Introduction to Methods and Procedures by Britt Anderson
+- The Marvels of Rome: Mirabilia Urbis Romae (English and Latin Edition) by Eileen Gardiner, Master Benedict
+- Venice and the Renaissance (MIT Press) by Manfredo Tafuri, Jessica Levine
+- Palladio Virtuel by Peter Eisenman, Matt Roman
+- Modern movements in architecture by Charles Jencks
+- Giuseppe Terragni: Transformations, Decompositions, Critiques by Peter Eisenman, Giuseppe Terragni
+- Giuseppe Terragni: Minimum Architecture by Alessandra Coppa
+- The Concept of the Political: Expanded Edition by Carl Schmitt, Tracy B. Strong (Kindle Edition) Offered by Amazon Digital Services LLC.
+- The Promise of Politics by Hannah Arendt (Kindle Edition) Offered by Random House LLC.
+- The Encyclopaedia Logic: Part I of the Encyclopaedia of the Philosophical Sciences with the Zustze (Hackett Classics) by G. W. F. Hegel, T. F. Geraets
+- Bramante's Spiral Staircase: Recent Restorations of the Vatican Museums (Recent Restorations of the Vatcan Museums) by Christiane Denker Nesselrath
+- Language, Truth and Logic (Dover Books on Western Philosophy) by Alfred J. Ayer, Sir Alfred Jules Ayer
+- Pasta by Design by George L. Legendre, Stefano Grazini Offered by BorisDoris.
+- Life in Moving Fluids: The Physical Biology of Flow by Steven Vogel
+- On Growth and Form: The Complete Revised Edition by DArcy Wentworth Thompson
+- Form+Code in Design, Art, and Architecture (Design Briefs) by Casey Reas, Chandler McWilliams
+- On Size and Life by Thomas McMahon, John Tyler Bonner Offered by RalstonBks.
+- Mathematics and the Physical World (Dover Books on Mathematics) by Morris Kline
+- Mathematics and Optimal Form (Scientific American Library) by Stefan Hildebrandt, Anthony Tromba Offered by RegainHope.
+- Abstraction in Art and Nature (Dover Art Instruction) by Nathan Cabot Hale
+- The Computational Beauty of Nature: Computer Explorations of Fractals, Chaos, Complex Systems, and Adaptation by Gary William Flake
+- Generative Design: Visualize, Program, and Create with Processing by Hartmut Bohnacker, Benedikt Gross
+- Evolutionary Design by Computers by Peter J. Bentley
+- Landscape as Urbanism: A General Theory by Charles Waldheim
+- Learning Python, 5th Edition by Mark Lutz
+- Deep Veils: Erik L’Heureux and Pencil Office by Erik L’Heureux, Grit Vltavsky
+- Cabins by Philip Jodidio
+- Made in Tokyo: Guide Book by Junzo Kuroda, Momoyo Kaijima Offered by ECbase.
+- A Thousand Plateaus: Capitalism and Schizophrenia by Gilles Deleuze, Felix Guattari
+- Dado by Selina Walder
+- Introduction to Systems Theory by Niklas Luhmann, Peter Gilgen
+- Once Upon an Alphabet: Short Stories for All the Letters by Oliver Jeffers, Oliver Jeffers
+- Desert Islands: and Other Texts, 1953–1974 (Semiotext(e) / Foreign Agents) by Gilles Deleuze, David Lapoujade
+- Privacy and Publicity: Modern Architecture as Mass Media by Beatriz Colomina
+- Codex Seraphinianus by Luigi Serafini
+- Here (Pantheon Graphic Novels) by Richard McGuire Offered by RLS Sales Inc.
+- Being and Time (Harper Perennial Modern Thought) by Martin Heidegger
+- The Sphere and the Labyrinth: Avant-Gardes and Architecture from Piranesi to the 1970's (English and Italian Edition) by Manfredo Tafuri
+- The Digital Turn in Architecture 1992 - 2012 by Mario Carpo
+- Francis Bacon: The Logic of Sensation by Gilles Deleuze
+- The King's Two Bodies by Ernst H. Kantorowicz
+- Architecture and Nihilism: On the Philosophy of Modern Architecture (Theoretical Perspectives in Architectura) by Mr. Massimo Cacciari, Mr. Stephen Sartarelli
+- Tractatus Logico-Philosophicus by Ludwig Wittgenstein, C.K. Ogden
+- Tractatus Logico-Philosophicus by Ludwig Wittgenstein, C. K. Ogden
+- Tractatus Logico-Philosophicus: English Translation by Ludwig Wittgenstein Offered by Goat\*Cheese.
+- The Promise of Politics by Hannah Arendt
+- Theories and History of Architecture by Manfredo Tafuri
+- Art and Objecthood: Essays and Reviews by Michael Fried
+- Architecture Without Architects: A Short Introduction to Non-Pedigreed Architecture by Bernard Rudofsky
+- The BLDGBLOG Book by Geoff Manaugh Offered by White Flame Books.
+- The Visual Culture Reader by Nicholas Mirzoeff
+- Nature by Ralph Waldo Emerson
+- Recovering Landscape: Essays in Contemporary Landscape Architecture by James Corner
+- Nordic Architects Write: A Documentary Anthology by Michael Asgaard Andersen
+- Gramophone, Film, Typewriter (Writing Science) by Friedrich A. Kittler, Geoffrey Winthrop-Young
+- Reasons for Knocking at an Empty House: Writings 1973-1994 by Bill Viola, Robert Violette
+- Intertwining: by Steven Holl
+- In the Blink of an Eye: A Perspective on Film Editing, 2nd Edition by Walter Murch
+- Visionary Film: The American Avant-Garde, 1943-2000, 3rd Edition by P. Adams Sitney Offered by Cherry_Books.
+- Kissing Architecture (POINT: Essays on Architecture) by Sylvia Lavin
+- Sculpting in Time: Tarkovsky The Great Russian Filmaker Discusses His Art by Andrey Tarkovsky
+- The Originality of the Avant-Garde and Other Modernist Myths (MIT Press) by Rosalind E. Krauss
+- Film Theory and Criticism: Introductory Readings by Leo Braudy, Marshall Cohen Offered by abookpreserve.
+- Gombrich On the Renaissance - Volume 1: Norm and Form by E.H. Gombrich
+- The Untimely Meditations (Thoughts Out of Season Parts I and II) by Friedrich Nietzsche, Anthony Ludovici
+- Nietzsche: Untimely Meditations (Cambridge Texts in the History of Philosophy) by Friedrich Nietzsche, Daniel Breazeale
+- Digital Workflows in Architecture by Scott Marble Offered by SpeedyHen.
+- My Favorite Things by Maira Kalman
+- The River by Alessandro Sanna
+- Pidgin Magazine No 6 Offered by Moonlit City.
+- Peter Zumthor: Buildings and Projects, 1985-2013 [5 Volume Set] by Thomas Durisch
+- The Western Town: A Theory of Aggregation by Jayne Kelley, Jared Macken
+- The Sniper's Log: Architectural Chronicles of Generation-X by Alejandro Zaera-Polo Offered by Prepbooks.
+- The Petropolis of Tomorrow by Neeraj Bhatia, Mary Casper
+- After Art (POINT: Essays on Architecture) by David Joselit
+- Invisible Cities by Italo Calvino
+- Architecture Concepts: Red is Not a Color by Bernard Tschumi
+- Pamphlet Architecture 1-10 by Steven Holl
+- Drawing Architecture by Neil Spiller
+- Grand Urban Rules by Alex Lehnerer
