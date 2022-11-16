@@ -1,5 +1,14 @@
 # big data
 
+## Conference
+
+- SIGMOD/PODS
+- SIGKDD
+- SIGIR
+- WSDM
+- VLDB
+- ICDE
+
 ## ETL
 
 - [etl process overview](https://www.keboola.com/blog/etl-process-overview)
@@ -28,6 +37,8 @@
 - MillWheel Fault-Tolerant Stream Processing at Internet Scale :book:
 - Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing :book:
 - Goods: Organizing Google’s Datasets :book:
+- Spanner: Google’s Globally Distributed Database
+- Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 
 ## Distribute Systems
 
@@ -105,6 +116,10 @@
 - Dremel Interactive Analysis of Web-Scale Datasets :book:
 - TiDB: A Raft-based HTAP Database :book:
 - Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores :book:
+- Druid: A Real-time Analytical Data Store
+- Vectorwise: Beyond Column Stores
+- HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
+- Hekaton: SQL Server’s Memory-Optimized OLTP Engine
 
 ## F1
 
@@ -133,3 +148,7 @@
 - [transactions apache kafka](https://www.confluent.io/blog/transactions-apache-kafka/)
 - [enabling exactly once](https://www.confluent.io/blog/enabling-exactly-once-kafka-streams/)
 - [EoS Abort Index Proposal](https://docs.google.com/document/d/1Rlqizmk7QCDe8qAnVW5e5X8rGvn6m2DCR3JR2yqwVjc/)
+
+## Cassandra
+
+- Cassandra - A Decentralized Structured Storage System
