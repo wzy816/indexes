@@ -9,6 +9,8 @@
 - VLDB
 - ICDE
 
+http://www.conferenceranks.com/
+
 ## ETL
 
 - [etl process overview](https://www.keboola.com/blog/etl-process-overview)
@@ -37,6 +39,7 @@
 - MillWheel Fault-Tolerant Stream Processing at Internet Scale :book:
 - Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing :book:
 - Goods: Organizing Google’s Datasets :book:
+  extract metadata of billions of dataset
 - Spanner: Google’s Globally Distributed Database
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 
@@ -114,8 +117,10 @@
 - Kudu Storage for Fast Analytics on Fast Data :book:
 - Impala A Modern, Open-Source SQL Engine for Hadoop :book:
 - Dremel Interactive Analysis of Web-Scale Datasets :book:
-- TiDB: A Raft-based HTAP Database :book:
-- Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores :book:
+- TiDB: A Raft-based HTAP Database, VLDB 2020
+  sql engine for compute on top of storage = kv for oltp + parquet for olap, data is replicated
+- Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores, VLDB 2020
+  table on OSS，use log、log checkpoint to achieve table's ACID
 - Druid: A Real-time Analytical Data Store
 - Vectorwise: Beyond Column Stores
 - HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
