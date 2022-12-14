@@ -33,6 +33,7 @@
 - Ontology Development 101: A Guide to Creating Your First Ontology :book:
 - Ontology Representation & Querying for Realizing Semantics-driven Applications 📖
 - Who's afraid of Ontology? :book:
+- [ER Diagram](https://www.visual-paradigm.com/cn/guide/data-modeling/what-is-entity-relationship-diagram/)
 
 ## Linux
 
