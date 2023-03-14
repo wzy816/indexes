@@ -399,3 +399,7 @@
 - [Learning to Drive in a Day](https://arxiv.org/pdf/1807.00412.pdf)
 - [Deep Reinforcement Learning framework for Autonomous Driving](https://arxiv.org/pdf/1704.02532.pdf)
 - [MarIQ](https://www.youtube.com/watch?v=Tnu4O_xEmVk)
+
+## AIGC
+
+- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/pdf/2303.04226.pdf)

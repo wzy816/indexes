@@ -2,6 +2,8 @@
 
 ## Conference
 
+[ranks](http://www.conferenceranks.com/)
+
 - SIGMOD/PODS
   - [2022 industrial](https://2022.sigmod.org/sigmod_industrial_list.shtml)
   - [2021 industrial](https://2021.sigmod.org/sigmod_industrial_list.shtml)
@@ -15,8 +17,6 @@
   - [2021 industrial](https://vldb.org/2021/?papers-industrial)
 - ICDE
   - [2022 industry](https://icde2022.ieeecomputer.my/accepted-industry-track/)
-
-http://www.conferenceranks.com/
 
 ## ETL
 
@@ -160,6 +160,7 @@ http://www.conferenceranks.com/
 - [transactions apache kafka](https://www.confluent.io/blog/transactions-apache-kafka/)
 - [enabling exactly once](https://www.confluent.io/blog/enabling-exactly-once-kafka-streams/)
 - [EoS Abort Index Proposal](https://docs.google.com/document/d/1Rlqizmk7QCDe8qAnVW5e5X8rGvn6m2DCR3JR2yqwVjc/)
+- Kafka: a Distributed Messaging System for Log Processing :book:
 
 ## Cassandra
 
