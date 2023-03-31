@@ -143,7 +143,8 @@
 
 ## chubby
 
-- The Chubby lock service for loosely-coupled distributed systems :book:
+- [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/) :book:
+  - [The Chubby Lock Service](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
 
 ## CockroachDB
 
