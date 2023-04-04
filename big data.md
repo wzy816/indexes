@@ -143,8 +143,8 @@
 
 ## chubby
 
-- [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/) :book:
-  - [The Chubby Lock Service](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
+- [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/)
+  - [The Chubby Lock Service notes](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
 
 ## CockroachDB
 
@@ -166,3 +166,7 @@
 ## Cassandra
 
 - Cassandra - A Decentralized Structured Storage System
+
+## Zookeeper
+
+- [Zookeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
