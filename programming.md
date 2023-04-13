@@ -52,11 +52,6 @@
 - [Git Best Practices](https://gist.github.com/pandeiro/1552496)
 - version control with git :book:
 
-## Design Pattern
-
-- [design-patterns](https://refactoring.guru/design-patterns)
-- [Game Programming Patterns](https://gameprogrammingpatterns.com/) :book:
-
 ## Algorithm & OI
 
 - An O(1) algorithm for implementing the LFU cache eviction scheme :book:
