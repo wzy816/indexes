@@ -394,7 +394,7 @@
   - user adversarial learning for graph representation
 - Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion :book:
 
-## autonomous driving
+## Autonomous Driving
 
 - [Learning to Drive in a Day](https://arxiv.org/pdf/1807.00412.pdf)
 - [Deep Reinforcement Learning framework for Autonomous Driving](https://arxiv.org/pdf/1704.02532.pdf)
@@ -405,3 +405,7 @@
 ## AIGC
 
 - [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/pdf/2303.04226.pdf)
+
+## Stable Diffusion
+
+## Infra
