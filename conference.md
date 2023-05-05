@@ -1,4 +1,4 @@
-# Conference
+# conference
 
 [ranks](http://www.conferenceranks.com/)
 
