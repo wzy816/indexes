@@ -1,15 +1,5 @@
 # machine learning
 
-## conference
-
-- NIPS, Neural Information Processing Systems <https://nips.cc/>
-- ICML, International Conference on Machine Learning <https://icml.cc>
-- UAI(AUAI), Association for Uncertainty in Artifical Intelligence <http://www.auai.org/>
-- AISTATS, Artificial Intelligence and Statistics <http://www.aistats.org/>
-- JMLR, Journal of Machine Learning Research <http://jmlr.org/>
-- IJCAI, International Joint Conference on Artifical Intelligence <http://ijcai.org/>
-- AAAI, Association for the Advancement of Aritifical Intelligence <http://www.aaai.org/home.html>
-
 ## General & Critical
 
 - Deep Learning: A Critical Appraisal :book:
@@ -394,19 +384,3 @@
 - [MarIQ](https://www.youtube.com/watch?v=Tnu4O_xEmVk)
 - [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738v2.pdf)
 - [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810.pdf)
-
-## AIGC
-
-- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/pdf/2303.04226.pdf)
-
-## Attention Mechanism & Transformer
-
-- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
-- [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-- Attention Is All You Need :book:
-- FINANCIAL SERIES PREDICTION USING ATTENTION LSTM :book:
-- [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
-
-## GPT
-
-- [The Illustrated GPT-2 (Visualizing Transformer Language Models)](https://jalammar.github.io/illustrated-gpt2/)
