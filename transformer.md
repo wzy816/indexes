@@ -63,12 +63,24 @@
   - [paper](https://arxiv.org/pdf/2304.03208.pdf)
   - [hf 13B](https://huggingface.co/cerebras/Cerebras-GPT-13B)
   - [code](https://github.com/Cerebras/modelzoo/blob/main/modelzoo/transformers/pytorch/gpt3/README.md) missing GPT3 implementation of banded sparse attention
-- Vicuna-13B chatbot
+- Vicuna-13B chatbot by LMSYS ORG
   - fine tune LLaMa with 70K user-shared conversations from ShareGPT
   - [blog](https://lmsys.org/blog/2023-03-30-vicuna/)
   - release delta weights on [llama](https://huggingface.co/docs/transformers/main/model_doc/llama)
   - [hf](https://huggingface.co/lmsys/vicuna-13b-delta-v1.1)
-  
+- gpt4all
+  - fine tune gpt-j-6b with nomic-ai/gpt4all-j-prompt-generations
+  - [github](https://github.com/nomic-ai/gpt4all)
+  - [md](transformer/gpt4all.md)
+- koala 13B by BAIR
+  - LLaMa 13B with dialogue from open dataset
+  - "the key to building strong dialogue models may lie more in curating high-quality dialogue data that is diverse in user queries, rather than simply reformatting existing datasets as questions and answers."
+  - [blog](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+- Alpaca 7B
+  - LLaMa 7B on 52k instruction, performance sim. to text-davinci-003
+  - [blog](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+  - [github](https://github.com/tatsu-lab/stanford_alpaca)
+
 ## quantization
 
 - GPT-J-6B-8bit
@@ -87,12 +99,10 @@
   - Parameter-efficient fine-tuning of large-scale pre-trained language models
   - Towards a unified view of parameter-efficient transfer learning
   - [peft](https://github.com/huggingface/peft)
-  - lora
+  - LoRA
+    - [paper](https://arxiv.org/pdf/2106.09685.pdf)
+    - [github](https://github.com/microsoft/LoRA)
     - [alpaca-lora](https://github.com/tloen/alpaca-lora)
-- gpt4all
-  - fine tune gpt-j-6b with nomic-ai/gpt4all-j-prompt-generations
-  - [github](https://github.com/nomic-ai/gpt4all)
-  - [md](transformer/gpt4all.md)
 - instruction learning
   - [awesome](https://github.com/RenzeLou/awesome-instruction-learning)
   - [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475.pdf)
