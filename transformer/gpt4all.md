@@ -32,11 +32,9 @@ conda activate gpt4fall
 # modify finetune_gptj_lora yaml
 # add dataset_version in train.py
 
-accelerate launch --dynamo_backend=inductor --num_processes=1 --num_machines=1 --machine_rank=0 --deepspeed_multinode_launcher standard --mixed_precision=bf16  --use_deepspeed --deepspeed_config_file=configs/deepspeed/ds_config_gptj_lora.json train.py --config configs/train/finetune_gptj_lora_20230512.yaml
+accelerate launch --dynamo_backend=inductor --num_processes=1 --num_machines=1 --machine_rank=0 --deepspeed_multinode_launcher standard --mixed_precision=bf16  --use_deepspeed --deepspeed_config_file=configs/deepspeed/ds_config_gptj_lora.json train.py --config configs/train/finetune_gptj_lora_20230515.yaml
 
-# trainable params: 3670016 || all params: 6054552800 || trainable%: 0.060615806339982696
-# Len of train_dataloader: 768371
-# Total training steps: 768871.0
+# training steps 800723
 ```
 
 ## configs/train/finetune_gptj_lora_20230512.yaml
@@ -60,19 +58,24 @@ batch_size: 1 # used in data.py
 lr: 2.0e-5
 min_lr: 0
 weight_decay: 0.0
-eval_every: 5000
+eval_every: 20000
 # eval_steps: 1050
-save_every: 10000
-log_grads_every: 5000
-output_dir: "/mnt/gpt4all_output_gptj_lora_20230512/"
+save_every: 50000
+log_grads_every: 10000
+output_dir: "/mnt/gpt4all_output_gptj_lora_20230515/"
 checkpoint: null
 lora: true
 warmup_steps: 500
 num_epochs: 1
 
+# train/test split
+test_size: 0.01
+
+# accelerate
+seed: 42
+
 # logging
 wandb: true
 wandb_entity:
-wandb_project_name: "gpt4all_gptj_lora_20230512"
-seed: 42
+wandb_project_name: "gpt4all_gptj_lora_20230515"
 ```
