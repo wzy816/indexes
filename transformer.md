@@ -52,6 +52,10 @@
 - ChatGPT
   - [share conversations](https://shareg.pt/4qj1DB0)
 - LLaMa
+  - train on roughly 1.4T tokens from public data only
+  - performance
+    - LLaMa-13B matches GPT3-15B
+    - LLaMa-65B matches Chinchilla-70B and PaLM-540B
   - [paper](https://arxiv.org/pdf/2302.13971.pdf)
   - [github](https://github.com/facebookresearch/llama)
   - [download model slowly](https://github.com/shawwn/llama-dl)
@@ -106,3 +110,7 @@
 - instruction learning
   - [awesome](https://github.com/RenzeLou/awesome-instruction-learning)
   - [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475.pdf)
+  - self-instruct
+    - grow instruction pair size with openai api
+    - [paper](https://arxiv.org/pdf/2212.10560.pdf)
+    - [github](https://github.com/yizhongw/self-instruct)
