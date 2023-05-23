@@ -1,5 +1,15 @@
 # gpt4all
 
+fine tune a [gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6b) model with dataset [nomic-ai/gpt4all-j-prompt-generations](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)
+
+[source code](https://github.com/wzy816/gpt4all/tree/train)
+
+124.67 hour, single A100 80GB card, result https://wandb.ai/wzy816/gpt4all_gptj_lora_20230515
+
+![](./gpt4all.finetune_gptj_lora_20230515.png)
+
+## training
+
 ```bash
 # change env
 export TRANSFORMERS_CACHE=/mnt/huggingface/hub
@@ -22,8 +32,10 @@ git lfs pull
 
 # clone repo
 cd ..
-git clone --recurse-submodules https://github.com/nomic-ai/gpt4all.git
+# git clone --recurse-submodules https://github.com/nomic-ai/gpt4all.git
+git clone  --recurse-submodules git@github.com:wzy816/gpt4all.git
 cd gpt4all
+git co train
 git submodule update --init
 
 conda create -n gpt4all python=3.9
@@ -32,50 +44,11 @@ conda activate gpt4fall
 # modify finetune_gptj_lora yaml
 # add dataset_version in train.py
 
+# on train branch
 accelerate launch --dynamo_backend=inductor --num_processes=1 --num_machines=1 --machine_rank=0 --deepspeed_multinode_launcher standard --mixed_precision=bf16  --use_deepspeed --deepspeed_config_file=configs/deepspeed/ds_config_gptj_lora.json train.py --config configs/train/finetune_gptj_lora_20230515.yaml
 
-# training steps 800723
-```
+# app branch
+cd app
+streamlit run app.py
 
-## configs/train/finetune_gptj_lora_20230512.yaml
-
-```yaml
-# model/tokenizer
-model_name: "EleutherAI/gpt-j-6B"
-tokenizer_name: "EleutherAI/gpt-j-6B"
-gradient_checkpointing: false
-save_name: # CHANGE
-
-# dataset
-streaming: false
-num_proc: 64 # for train_dataset.map in data.py
-dataset_path: "nomic-ai/gpt4all-j-prompt-generations"
-dataset_version: "v1.3-groovy"
-max_length: 2048 # print from tokenizer used in data.py
-batch_size: 1 # used in data.py
-
-# train dynamics
-lr: 2.0e-5
-min_lr: 0
-weight_decay: 0.0
-eval_every: 20000
-# eval_steps: 1050
-save_every: 50000
-log_grads_every: 10000
-output_dir: "/mnt/gpt4all_output_gptj_lora_20230515/"
-checkpoint: null
-lora: true
-warmup_steps: 500
-num_epochs: 1
-
-# train/test split
-test_size: 0.01
-
-# accelerate
-seed: 42
-
-# logging
-wandb: true
-wandb_entity:
-wandb_project_name: "gpt4all_gptj_lora_20230515"
 ```
