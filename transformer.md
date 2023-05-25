@@ -11,6 +11,12 @@
   - [paper cn](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese_0418.pdf)
   - [github](https://github.com/RUCAIBox/LLMSurvey)
 - [Planning for AGI and beyond by Sam Altman](https://openai.com/blog/planning-for-agi-and-beyond)
+- [ChatGPT 原理介绍：从语言模型走近 chatgpt](https://zhuanlan.zhihu.com/p/608047052)
+- [通向 AGI 之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
+  - LLM 作为交互接口理解人
+  - 模型大小与训练数据量关系 => 涌现
+  - 分步拆解，增强了推理 CoT 能力
+  - 未来 LLM 模型稀疏化
 
 ## Attention Mechanism & Transformer
 
@@ -18,6 +24,12 @@
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+- perceiver io
+  - perform self-attention on latent variables, cross-attention on inputs, solve qudratic scaling of seq length
+  - [paper](https://arxiv.org/pdf/2107.14795.pdf)
+  - [hf doc](https://huggingface.co/docs/transformers/model_doc/perceiver)
+  - [deepmind jax implementation](https://github.com/deepmind/deepmind-research/blob/master/perceiver/README.md)
+  - [pytorch implementation](https://github.com/krasserm/perceiver-io)
 
 ## GPT
 
@@ -45,9 +57,10 @@
   - using [Mesh Transformer JAX](https://github.com/kingoflolz/mesh-transformer-jax/) trained on [the pile](https://pile.eleuther.ai/)
   - [hf](https://huggingface.co/EleutherAI/gpt-j-6b)
 - GPT3
+  - like GPT2 but use alternating dense and locally banded sparse attention patterns
   - paper [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
   - [github](https://github.com/openai/gpt-3)
-- CodeX
+- CodeX / code-davinci-002
   - GPT3 family on code
   - evaluation paper [Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)
 - GPT4
@@ -117,10 +130,19 @@
     - alpaca lora
       - [github](https://github.com/tloen/alpaca-lora)
       - [hf weights](https://huggingface.co/tloen/alpaca-lora-7b)
-- instruction learning
+- instruction learning / zero shot
   - [awesome](https://github.com/RenzeLou/awesome-instruction-learning)
   - [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475.pdf)
   - self-instruct
     - grow instruction pair size with openai api
     - [paper](https://arxiv.org/pdf/2212.10560.pdf)
     - [github](https://github.com/yizhongw/self-instruct)
+
+## scaling / emergent behaviour
+
+- [大语言模型的涌现能力：现象与解释](https://zhuanlan.zhihu.com/p/621438653)
+- [paper Emergent Abilities of Large Language Models](https://arxiv.org/pdf/2206.07682.pdf)
+- Chinchilla 7B
+  - compute-optimal model, haiku on TPU
+  - evaluate the trade off of model size and number of training tokens, given fixed flop budget
+  - [paper](https://arxiv.org/pdf/2203.15556.pdf)
