@@ -30,6 +30,16 @@
   - [hf doc](https://huggingface.co/docs/transformers/model_doc/perceiver)
   - [deepmind jax implementation](https://github.com/deepmind/deepmind-research/blob/master/perceiver/README.md)
   - [pytorch implementation](https://github.com/krasserm/perceiver-io)
+- rotary position encoding
+  - by zhuiyi tech
+  - [blog CN , key equation 11 and 13](https://kexue.fm/archives/8265)
+  - [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
+  - [roformer github](https://github.com/ZhuiyiTechnology/roformer)
+  - [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
+  - implementation
+    - [roformer pseudo code](https://github.com/ZhuiyiTechnology/roformer#implementation)
+    - [torch hf llama](https://github.com/huggingface/transformers/blob/main/src/transformers/models/llama/modeling_llama.py#L91)
+    - [facebook llama](https://github.com/facebookresearch/llama/blob/main/llama/model.py#L63)
 
 ## GPT
 
@@ -73,9 +83,10 @@
     - LLaMa-13B matches GPT3-15B
     - LLaMa-65B matches Chinchilla-70B and PaLM-540B
   - [paper](https://arxiv.org/pdf/2302.13971.pdf)
-  - [github](https://github.com/facebookresearch/llama)
+  - [facebook github](https://github.com/facebookresearch/llama)
   - [download model slowly](https://github.com/shawwn/llama-dl)
   - [md](transformer/llama.md) to run inference
+  - ## implementation
 
 ## public GPT
 
