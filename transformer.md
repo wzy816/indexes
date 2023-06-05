@@ -22,7 +22,8 @@
 
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+- attention
+  - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 - perceiver io
   - perform self-attention on latent variables, cross-attention on inputs, solve qudratic scaling of seq length
@@ -30,23 +31,18 @@
   - [hf doc](https://huggingface.co/docs/transformers/model_doc/perceiver)
   - [deepmind jax implementation](https://github.com/deepmind/deepmind-research/blob/master/perceiver/README.md)
   - [pytorch implementation](https://github.com/krasserm/perceiver-io)
-- rotary position encoding
+- [rotary position encoding](transformer/rotary%20position%20embedding.ipynb)
   - by zhuiyi tech
   - [blog CN , key equation 11 and 13](https://kexue.fm/archives/8265)
   - [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
   - [roformer github](https://github.com/ZhuiyiTechnology/roformer)
   - [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
-  - implementation
-    - [roformer pseudo code](https://github.com/ZhuiyiTechnology/roformer#implementation)
-    - [torch hf llama](https://github.com/huggingface/transformers/blob/main/src/transformers/models/llama/modeling_llama.py#L91)
-    - [facebook llama](https://github.com/facebookresearch/llama/blob/main/llama/model.py#L63)
 
 ## GPT
 
 - [The Illustrated GPT-2 (Visualizing Transformer Language Models)](https://jalammar.github.io/illustrated-gpt2/)
-- nanoGPT
+- [nanoGPT](<(transformer/nanoGPT.md)>)
   - [github](https://github.com/karpathy/nanoGPT)
-  - [md](transformer/nanoGPT.md)
 - GPT1
   - paper [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 - GPT2
@@ -77,7 +73,7 @@
   - [blog by openai](https://openai.com/research/gpt-4)
 - ChatGPT
   - [sharegpt](https://shareg.pt/4qj1DB0)
-- LLaMa
+- [LlaMa](transformer/llama.md)
   - train on roughly 1.4T tokens from public data only
   - performance
     - LLaMa-13B matches GPT3-15B
@@ -85,8 +81,9 @@
   - [paper](https://arxiv.org/pdf/2302.13971.pdf)
   - [facebook github](https://github.com/facebookresearch/llama)
   - [download model slowly](https://github.com/shawwn/llama-dl)
-  - [md](transformer/llama.md) to run inference
-  - ## implementation
+  - implementation
+    - [hf](https://github.com/huggingface/transformers/blob/main/src/transformers/models/llama/modeling_llama.py)
+    - [facebook](https://github.com/facebookresearch/llama/blob/main/llama/model.py)
 
 ## public GPT
 
@@ -100,9 +97,8 @@
   - [blog](https://lmsys.org/blog/2023-03-30-vicuna/)
   - release delta weights on [llama](https://huggingface.co/docs/transformers/main/model_doc/llama)
   - [hf](https://huggingface.co/lmsys/vicuna-13b-delta-v1.1)
-- gpt4all
+- [gpt4all](transformer/gpt4all.md)
   - fine tune gpt-j-6b with nomic-ai/gpt4all-j-prompt-generations with lora
-  - [md](transformer/gpt4all.md)
   - [github](https://github.com/nomic-ai/gpt4all)
   - [technical report](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf)
 - koala 13B by BAIR
