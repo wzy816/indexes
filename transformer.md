@@ -23,17 +23,14 @@
 
 ### Misc
 
-- https://github.com/microsoft/guidance
+- <https://github.com/microsoft/guidance>
 
 ## Basic
 
-### Transformer
+### Transformer & Attention
 
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-
-### Attention
-
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 - perceiver io
@@ -43,9 +40,29 @@
   - [deepmind jax implementation](https://github.com/deepmind/deepmind-research/blob/master/perceiver/README.md)
   - [pytorch implementation](https://github.com/krasserm/perceiver-io)
 
+### Long-Range attention
+
+- <https://huggingface.co/blog/long-range-transformers>
+  - 4 improvements on vanilla attention
+- [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
+  - chapter 2 very canonical
+- [LONG RANGE ARENA: A BENCHMARK FOR EFFICIENT TRANSFORMERS](https://arxiv.org/pdf/2011.04006.pdf)
+  - benchmark for evaluating model quality under long-context scenario
+  - [github](https://github.com/google-research/long-range-arena)
+- Linformer
+  - low-rank, add projection to v & k
+  - [paper](https://arxiv.org/pdf/2006.04768.pdf)
+  - [Johnson–Lindenstrauss lemm proof](https://cseweb.ucsd.edu/~dasgupta/papers/jl.pdf)
+  - [blog](https://tevenlescao.github.io/blog/fastpages/jupyter/2020/06/18/JL-Lemma-+-Linformer.html)
+  - [hf blog](https://huggingface.co/blog/long-range-transformers#linformer-self-attention-with-linear-complexity)
+- BigBird
+  - block sparse attention up to 4096
+  - [hf blog](https://huggingface.co/blog/big-bird#bigbird-block-sparse-attention)
+  - [hf code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/big_bird/modeling_big_bird.py#LL514C10-L514C10)
+
 ## Rotary Position Encoding
 
-transformer/rotary%20position%20embedding.ipynb
+[notebook](transformer/rotary%20position%20embedding.ipynb)
 
 - [blog CN , key equation 11 and 13](https://kexue.fm/archives/8265)
 - [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
@@ -53,6 +70,10 @@ transformer/rotary%20position%20embedding.ipynb
 - [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
 
 ## Model
+
+| Base Model | SFT Model     | RL Model       |
+| ---------- | ------------- | -------------- |
+| GPT,LlaMa  | Vicuna,alpaca | ChatGPT,Claude |
 
 ### Base Model
 
@@ -175,3 +196,11 @@ transformer/rotary%20position%20embedding.ipynb
   - compute-optimal model, haiku on TPU
   - evaluate the trade off of model size and number of training tokens, given fixed flop budget
   - [paper](https://arxiv.org/pdf/2203.15556.pdf)
+
+### Reasoning
+
+- [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
+  - combine CoT and Act
+- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
+  - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
+  - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
