@@ -384,3 +384,8 @@
 - [MarIQ](https://www.youtube.com/watch?v=Tnu4O_xEmVk)
 - [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738v2.pdf)
 - [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810.pdf)
+
+## Reinforcement Learning
+
+- [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf)
+  - no true reward function
