@@ -20,6 +20,11 @@
   - 分步拆解，增强了推理 CoT 能力
   - 未来 LLM 模型稀疏化
 - [State of GPT](https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2)
+- [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
+  - Mode-1 (perception-action) and Mode-2 (model-predictive control, MPC)
+  - propose a Joint Embedding Predictive Architectures for Self-Supervised Learning
+- [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+  - general methods that leverage computation are ultimately the most effective
 
 ### Misc
 
@@ -33,6 +38,7 @@
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+- [A Simple Example of Causal Attention Masking in Transformer Decoder](https://medium.com/@jinoo/a-simple-example-of-attention-masking-in-transformer-decoder-a6c66757bc7d)
 - perceiver io
   - perform self-attention on latent variables, cross-attention on inputs, solve qudratic scaling of seq length
   - [paper](https://arxiv.org/pdf/2107.14795.pdf)
@@ -83,14 +89,15 @@
 - GPT1
   - paper [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 - GPT2
-  - paper [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+  - paper [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+  - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
   - report [Release Strategies and the Social Impacts of Language Models](https://arxiv.org/pdf/1908.09203.pdf)
   - [release blog](https://openai.com/research/gpt-2-1-5b-release)
   - implementation code
     - [tf by openai](https://github.com/openai/gpt-2/blob/master/src/model.py)
     - [pytorch by huggingface](https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py)
     - [by nanoGPT](https://github.com/karpathy/nanoGPT/blob/master/model.py)
-    - [by cerebras](https://github.com/Cerebras/modelzoo/tree/main/modelzoo/transformers/pytorch/gpt2)
+    - [by cerebras](https://github.com/Cerebras/modelzoo/blob/main/modelzoo/transformers/pytorch/gpt2/gpt2_model.py)
   - GPT2 M
     - [hf](https://huggingface.co/gpt2-medium)
   - GPT2 L
@@ -111,6 +118,7 @@
   - [blog by openai](https://openai.com/research/gpt-4)
 - [LlaMa](transformer/llama.md)
   - train on roughly 1.4T tokens from public data only
+  - norm input at each layer; use SwiGLU; use RoPe
   - performance
     - LLaMa-13B matches GPT3-15B
     - LLaMa-65B matches Chinchilla-70B and PaLM-540B
@@ -120,6 +128,9 @@
   - implementation
     - [hf](https://github.com/huggingface/transformers/blob/main/src/transformers/models/llama/modeling_llama.py)
     - [facebook](https://github.com/facebookresearch/llama/blob/main/llama/model.py)
+  - feedforward
+    - [why](https://github.com/facebookresearch/llama/issues/245)
+    - [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202.pdf)
 
 ### Supervised Fine-Tuning (SFT) Model
 
@@ -183,10 +194,12 @@
 - instruction learning / zero shot
   - [awesome](https://github.com/RenzeLou/awesome-instruction-learning)
   - [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475.pdf)
-  - self-instruct
+  - SELF-INSTRUCT: Aligning Language Models with Self-Generated Instructions
     - grow instruction pair size with openai api
     - [paper](https://arxiv.org/pdf/2212.10560.pdf)
     - [github](https://github.com/yizhongw/self-instruct)
+  - [LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS](https://arxiv.org/pdf/2211.01910.pdf)
+    - using LLMs to generate and select instructions automatically, program synthesis
 
 ### Scaling / Emergent Behaviour
 
