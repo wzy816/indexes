@@ -217,3 +217,8 @@
 - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
   - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
   - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
+
+### Inference
+
+- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [llama2.c](https://github.com/karpathy/llama2.c)
