@@ -131,6 +131,9 @@
   - feedforward
     - [why](https://github.com/facebookresearch/llama/issues/245)
     - [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202.pdf)
+  - inference
+    - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+    - [llama2.c](https://github.com/karpathy/llama2.c)
 
 ### Supervised Fine-Tuning (SFT) Model
 
@@ -149,7 +152,7 @@
   - [github](https://github.com/nomic-ai/gpt4all)
   - [technical report](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf)
 - koala 13B by BAIR
-  - LLaMa 13B with dialogue from open dataset
+  - LLaMa 13B with dialogue from open datasetma
   - "the key to building strong dialogue models may lie more in curating high-quality dialogue data that is diverse in user queries, rather than simply reformatting existing datasets as questions and answers."
   - [blog](https://bair.berkeley.edu/blog/2023/04/03/koala/)
 - stanford alpaca
@@ -209,6 +212,7 @@
   - compute-optimal model, haiku on TPU
   - evaluate the trade off of model size and number of training tokens, given fixed flop budget
   - [paper](https://arxiv.org/pdf/2203.15556.pdf)
+    - when model size doubled, training tokens should also be doubled
 
 ### Reasoning
 
@@ -217,8 +221,3 @@
 - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
   - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
   - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
-
-### Inference
-
-- [llama.cpp](https://github.com/ggerganov/llama.cpp)
-- [llama2.c](https://github.com/karpathy/llama2.c)
