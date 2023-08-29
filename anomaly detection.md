@@ -173,3 +173,11 @@
 
 - Systematic Construction of Anomaly Detection Benchmarks from Real Data :book:
   - benchmark 要求：正常数据点来自真实世界；异常数据点来自真实世界而且语义上不同；需要很多数据；需要定义好异常问题，且系统性多样
+
+## t-digest
+
+- Computing Extremely Accurate Quantiles Using t-digests :book:
+- [论文作者的 java 实现](https://github.com/tdunning/t-digest/blob/master/core/src/main/java/com/tdunning/math/stats/TDigest.java)
+- [scala 实现](https://gist.github.com/RobColeman/c4c948f6365dc788a09d)
+- [TDigestUDAF](https://github.com/isarn/isarn-sketches-spark/blob/master/src/main/scala/org/isarnproject/sketches/udaf/TDigestUDAF.scala)
+- [有问题的 python 实现](https://github.com/CamDavidsonPilon/tdigest/blob/master/tdigest/tdigest.py)
