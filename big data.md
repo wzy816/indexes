@@ -45,21 +45,31 @@
 - The Dataflow Model :book:
 - MillWheel Fault-Tolerant Stream Processing at Internet Scale :book:
 
-### Snowflake
-
-- The Snowflake Elastic Data Warehourse :book:
-- Building An Elastic Query Engine on Disaggregated Storage :book:
-
 ## Storage
 
 ### Format
 
 - [Parquet Logical Type Definitions](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md)
 - ColumnStores vs. RowStores How Different Are They Really :book:
+- [Weaving Relations for Cache Performance](https://www.vldb.org/conf/2001/P169.pdf)
+  - introduce new data layout (PAX) for RDS using fixed/variable-length minipage within page
+  - inter-record spatial locality and high cache performance compared with NSM
+  - less reconstruction cost compared with DSM
+
+### KV
+
+- leveldb
+  - [API](https://github.com/google/leveldb/blob/main/doc/index.md)
+  - single thread, log structured merge (lsm) architecture
+  - use level-style compaction
+- RocksDB
+  - embeddable
+  - use universal style compaction, reduce write amplifaction to < 10
+  - bloom prefix scan reduce read amplication
+- [Dynamo: Amazon’s Highly Available Key-value Store](https://assets.amazon.science/ac/1d/eb50c4064c538c8ac440ce6a1d91/dynamo-amazons-highly-available-key-value-store.pdf)
 
 ### NewSQL / OLTP
 
-- F1 A Distributed SQL Database That Scales :book:
 - CockroachDB: The Resilient Geo-Distributed SQL Database :book:
 - Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing :book:
 - Kudu Storage for Fast Analytics on Fast Data :book:
@@ -89,6 +99,10 @@
   - 行式（leader）内部形成 raft group，行式到列式（learner）之间用 raft 算法异步获得数据
   - 行式存储 TiKV 用 LSM Tree，inspired by Google's Percolator， internally 用 RocksDB
   - 列式存储 TiFlash 基于 DeltaTree，顶层是 B+Tree，更新数据先 append 到 delta space，然后再 perioidcally merge 成大文件到 stable space
+- [F1 A Distributed SQL Database That Scales](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41344.pdf)
+  - hybrid relational and NoSQL database, use spanner as low-level storage
+  - protocol buffer used in structured type
+  - three types of transactions, by default use mainly optimistic transactions (a read phase + a short write phase)
 
 ### Elasticsearch
 
@@ -102,6 +116,21 @@
 - [enabling exactly once](https://www.confluent.io/blog/enabling-exactly-once-kafka-streams/)
 - [EoS Abort Index Proposal](https://docs.google.com/document/d/1Rlqizmk7QCDe8qAnVW5e5X8rGvn6m2DCR3JR2yqwVjc/)
 - Kafka: a Distributed Messaging System for Log Processing :book:
+
+### Snowflake
+
+- [The Snowflake Elastic Data Warehourse](https://info.snowflake.net/rs/252-RFO-227/images/Snowflake_SIGMOD.pdf)
+  - decouple storage and compute by two scalable services
+  - 3-layer architecture
+    1. data storage, on object storage
+       - usability, scalability, HA
+       - range GET
+    2. virtual warehouse, on scalable MPP worker nodes
+    3. cloud service, on ec2
+       - concurrency control
+       - min-max pruning
+- [Building An Elastic Query Engine on Disaggregated Storage](https://www.usenix.org/system/files/nsdi20-paper-vuppalapati.pdf)
+  - local ephemeral storage as write-through cache
 
 ## Distribute Systems
 
