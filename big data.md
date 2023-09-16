@@ -67,12 +67,19 @@
   - use universal style compaction, reduce write amplifaction to < 10
   - bloom prefix scan reduce read amplication
 - [Dynamo: Amazon’s Highly Available Key-value Store](https://assets.amazon.science/ac/1d/eb50c4064c538c8ac440ce6a1d91/dynamo-amazons-highly-available-key-value-store.pdf)
+  - eventually consistant data store, always writable, conflicts are resolved at read
+  - high availability, sacrifice consistency under certain failure scenarios
+  - consistent hashing and virtual node for incremental scaling
+  - use merkle tree for replica syncronization check
+  - gossip-based protocal to maintain an eventually consistent view of membership
 
 ### NewSQL / OLTP
 
 - CockroachDB: The Resilient Geo-Distributed SQL Database :book:
 - Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing :book:
 - Kudu Storage for Fast Analytics on Fast Data :book:
+  - structured data storage for analytical analysis
+  - horizontal partitioning
 - Impala A Modern, Open-Source SQL Engine for Hadoop :book:
 - Dremel Interactive Analysis of Web-Scale Datasets :book:
 - Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores
@@ -82,6 +89,7 @@
 - HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
 - Hekaton: SQL Server’s Memory-Optimized OLTP Engine
 - Cassandra - A Decentralized Structured Storage System
+- HBase
 
 ### OLAP
 
