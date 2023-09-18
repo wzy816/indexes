@@ -21,6 +21,7 @@
 
 - Volcano-An Extensible and Parallel Query Evaluation System :book:
 - Apache Calcite A Foundational Framework for Optimized Query Processing Over Heterogeneous Data Sources :book:
+- Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing :book:
 
 ### Hadoop
 
@@ -55,6 +56,7 @@
   - introduce new data layout (PAX) for RDS using fixed/variable-length minipage within page
   - inter-record spatial locality and high cache performance compared with NSM
   - less reconstruction cost compared with DSM
+- [A Case for Fractured Mirrors](https://www.vldb.org/conf/2002/S12P03.pdf)
 
 ### KV
 
@@ -73,31 +75,33 @@
   - use merkle tree for replica syncronization check
   - gossip-based protocal to maintain an eventually consistent view of membership
 
-### NewSQL / OLTP
+### NewSQL / OLTP / OLAP / HTAP
 
 - CockroachDB: The Resilient Geo-Distributed SQL Database :book:
-- Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing :book:
-- Kudu Storage for Fast Analytics on Fast Data :book:
-  - structured data storage for analytical analysis
-  - horizontal partitioning
+- [Kudu Storage for Fast Analytics on Fast Data](https://kudu.apache.org/kudu.pdf)
+  - storage system btw hdfs and hbase, providing tables with schema and primary key
+  - one centralized, replicated master, and many tablet servers
+  - tables use horizontal partitioning, schema can be 0+ hash-partitioning and optional range-partitioning
+  - use raft algorithm to replicate operation logs
+  - use raft to backup master process, master is only an observer of dynamic cluster state
+  - a hybrid columnar store for tablet storage
+    - MemRowSets(MassTree), in-memory concurrent B+ tree with optimistic locking, for effcient scan over pk range or lookup
+    - DiskRowSet, has base store and delta store (for update and delete records)
+  - maintenance threads run all the time in tablet server
+  - benchmark against parquest on TPC-H, against hbase on YCSB
 - Impala A Modern, Open-Source SQL Engine for Hadoop :book:
 - Dremel Interactive Analysis of Web-Scale Datasets :book:
 - Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores
-  table on OSS，use log、log checkpoint to achieve table's ACID
+  - table on OSS，use log、log checkpoint to achieve table's ACID
 - Druid: A Real-time Analytical Data Store
 - Vectorwise: Beyond Column Stores
 - HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
 - Hekaton: SQL Server’s Memory-Optimized OLTP Engine
 - Cassandra - A Decentralized Structured Storage System
 - HBase
-
-### OLAP
-
+- Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing :book:
 - [Clickhouse 源码导读](http://sineyuan.github.io/post/clickhouse-source-guide/)
 - [ClickHouse 在字节广告 DMP & CDP 的应用](https://mp.weixin.qq.com/s/lYjIfKS8k9ZHPrxBRYOBrw)
-
-### HTAP
-
 - [TiDB: A Raft-based HTAP Database](https://www.vldb.org/pvldb/vol13/p3072-huang.pdf)
   - 强调 freshness（分析查询实时性） 和 isolation（事务查询和分析查询资源隔离）
   - 三个 component
@@ -149,13 +153,10 @@
   - [The Chubby Lock Service notes](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
 - [Zookeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
+- Technical Report: HybridTime - Accessible Global Consistency with High Clock Uncertainty
 
 ## Dataset
 
 - Goods: Organizing Google’s Datasets :book:
   - extract metadata of billions of dataset
 - WEB SEARCH FOR A PLANET THE GOOGLE CLUSTER ARCHITECTURE :book:
-
-## 三驾马车 & google
-
-- Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing :book:
