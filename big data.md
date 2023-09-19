@@ -92,7 +92,9 @@
 - Impala A Modern, Open-Source SQL Engine for Hadoop :book:
 - Dremel Interactive Analysis of Web-Scale Datasets :book:
 - Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores
-  - table on OSS，use log、log checkpoint to achieve table's ACID
+  - ACID table on OSS
+  - use a write-ahead log compacted into parquet stored in oss to provide ACID property
+  - data objects and log records with checkpoints
 - Druid: A Real-time Analytical Data Store
 - Vectorwise: Beyond Column Stores
 - HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
