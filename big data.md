@@ -22,6 +22,8 @@
 - Volcano-An Extensible and Parallel Query Evaluation System :book:
 - Apache Calcite A Foundational Framework for Optimized Query Processing Over Heterogeneous Data Sources :book:
 - Alibaba Hologres: A Cloud-Native Service for Hybrid Serving/Analytical Processing :book:
+- [Impala: A Modern, Open-Source SQL Engine for Hadoop](https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper28.pdf)
+- [Hekaton: SQL Server’s Memory-Optimized OLTP Engine](https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/Hekaton-Sigmod2013-final.pdf)
 
 ### Hadoop
 
@@ -57,6 +59,7 @@
   - inter-record spatial locality and high cache performance compared with NSM
   - less reconstruction cost compared with DSM
 - [A Case for Fractured Mirrors](https://www.vldb.org/conf/2002/S12P03.pdf)
+  - one copy of DSM and one copy of DSM, declustered and stored on the same disk, being logically identical
 
 ### KV
 
@@ -77,7 +80,15 @@
 
 ### NewSQL / OLTP / OLAP / HTAP
 
-- CockroachDB: The Resilient Geo-Distributed SQL Database :book:
+- [CockroachDB: The Resilient Geo-Distributed SQL Database](https://dl.acm.org/doi/pdf/10.1145/3318464.3386134)
+  - SQL DBMS for OLTP, resilient, shared-nothing architecture
+  - layered architecture inside node
+    - SQL engine
+    - transactional KV
+    - key space data chunk, aka 64MB Ranges, has range-partitioning maintained by a two-level index structure
+    - replication, 3 replica, use raft consesus on low-level edit commands
+    - stored on disk-backed RockDB
+  - range-partitioning, two-level indexing structure
 - [Kudu Storage for Fast Analytics on Fast Data](https://kudu.apache.org/kudu.pdf)
   - storage system btw hdfs and hbase, providing tables with schema and primary key
   - one centralized, replicated master, and many tablet servers
@@ -89,19 +100,16 @@
     - DiskRowSet, has base store and delta store (for update and delete records)
   - maintenance threads run all the time in tablet server
   - benchmark against parquest on TPC-H, against hbase on YCSB
-- Impala A Modern, Open-Source SQL Engine for Hadoop :book:
-- Dremel Interactive Analysis of Web-Scale Datasets :book:
-- Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores
+- [Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores](https://www.vldb.org/pvldb/vol13/p3411-armbrust.pdf)
   - ACID table on OSS
   - use a write-ahead log compacted into parquet stored in oss to provide ACID property
   - data objects and log records with checkpoints
-- Druid: A Real-time Analytical Data Store
-- Vectorwise: Beyond Column Stores
-- HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots
-- Hekaton: SQL Server’s Memory-Optimized OLTP Engine
-- Cassandra - A Decentralized Structured Storage System
+- [Druid: A Real-time Analytical Data Store](http://static.druid.io/docs/druid.pdf)
+- [Vectorwise: Beyond Column Stores](http://sites.computer.org/debull/A12mar/vectorwise.pdf)
+- [HyPer: A Hybrid OLTP&OLAP Main Memory Database System Based on Virtual Memory Snapshots](https://cs.brown.edu/courses/cs227/archives/2012/papers/olap/hyper.pdf)
+- [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 - HBase
-- Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing :book:
+- [Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42851.pdf)
 - [Clickhouse 源码导读](http://sineyuan.github.io/post/clickhouse-source-guide/)
 - [ClickHouse 在字节广告 DMP & CDP 的应用](https://mp.weixin.qq.com/s/lYjIfKS8k9ZHPrxBRYOBrw)
 - [TiDB: A Raft-based HTAP Database](https://www.vldb.org/pvldb/vol13/p3072-huang.pdf)
@@ -162,3 +170,4 @@
 - Goods: Organizing Google’s Datasets :book:
   - extract metadata of billions of dataset
 - WEB SEARCH FOR A PLANET THE GOOGLE CLUSTER ARCHITECTURE :book:
+- ## [Dremel Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
