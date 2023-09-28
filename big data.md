@@ -165,9 +165,20 @@
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 - Technical Report: HybridTime - Accessible Global Consistency with High Clock Uncertainty
 
+### Consensus
+
+- [Towards Robust Distributed Systems](https://sites.cs.ucsb.edu/~rich/class/cs293-cloud/papers/Brewer_podc_keynote_2000.pdf)
+  - Consistency, Availability, Partitioning
+  - for PostgreSQL with ACID, prefer c over a
+  - for Basic Availability, Soft-state, Eventual consistency,like mongodb, prefer a over c
+- [Consistency Tradeoffs in Modern Distributed Database System Design](https://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf)
+  - for system with partition, tradeoff btw consistency and availability
+  - for system with no partition, tradeoff btw consistency and latency
+- [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
+
 ## Dataset
 
 - Goods: Organizing Google’s Datasets :book:
   - extract metadata of billions of dataset
 - WEB SEARCH FOR A PLANET THE GOOGLE CLUSTER ARCHITECTURE :book:
-- ## [Dremel Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
+- [Dremel Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
