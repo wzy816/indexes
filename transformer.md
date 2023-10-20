@@ -66,7 +66,7 @@
   - [hf blog](https://huggingface.co/blog/big-bird#bigbird-block-sparse-attention)
   - [hf code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/big_bird/modeling_big_bird.py#LL514C10-L514C10)
 
-## Rotary Position Encoding
+### Rotary Position Encoding
 
 [notebook](transformer/rotary%20position%20embedding.ipynb)
 
@@ -74,6 +74,12 @@
 - [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
 - [roformer github](https://github.com/ZhuiyiTechnology/roformer)
 - [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
+
+### Alibi
+
+[notebook](transformer/alibi.ipynb)
+
+- [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
 
 ## Model
 
