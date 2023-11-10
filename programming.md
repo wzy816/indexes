@@ -72,3 +72,5 @@
 - Algorithms on Strings
 - Foundations of Multidimensional and Metric Data Structures(The Morgan Kaufmann Series in Computer Graphics)
 - Clever Algorithms: Nature-inspired Programming Recipes
+- [Hello 算法](https://www.hello-algo.com/chapter_preface/)
+- [Algorithm by liuzhenglaichn](https://liuzhenglaichn.gitbook.io/algorithm/)
