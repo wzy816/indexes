@@ -21,9 +21,6 @@
 - 《集体智慧编程》
 - 《AnIntroduction to Statistical Learning》
 - 《the elements of statistical learning》
-- [AI engineer](https://www.latent.space/p/ai-engineer)
-  - LLM enabled Product
-  - software 3.0
 
 ## Bayesian
 
