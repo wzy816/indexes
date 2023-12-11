@@ -25,10 +25,12 @@
   - propose a Joint Embedding Predictive Architectures for Self-Supervised Learning
 - [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
   - general methods that leverage computation are ultimately the most effective
-
-### Misc
-
-- <https://github.com/microsoft/guidance>
+- [AI engineer](https://www.latent.space/p/ai-engineer)
+  - LLM enabled Product
+  - software 3.0
+- [Levels of AGI: Operationalizing Progress on the Path to AGI](https://arxiv.org/pdf/2311.02462.pdf)
+  - define 6 criteria of AGI and 6-level ontology of AGI
+- [THE IMPACT OF DEPTH AND WIDTH ON TRANSFORMER LANGUAGE MODEL GENERALIZATION](https://arxiv.org/pdf/2310.19956.pdf)
 
 ## Basic
 
@@ -80,6 +82,7 @@
 [notebook](transformer/alibi.ipynb)
 
 - [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
+- [attention implementation](https://github.com/jaketae/alibi/blob/main/alibi/attention.py)
 
 ## Model
 
@@ -227,3 +230,16 @@
 - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
   - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
   - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
+
+### Benchmark & Evaluation
+
+- GPT-Fathom: Benchmarking Large Language Models to Decipher the Evolutionary Path towards {GPT-4} and Beyond
+  - [paper](https://arxiv.org/pdf/2309.16583.pdf)
+  - [github](https://github.com/GPT-Fathom/GPT-Fathom)
+- [guidance](https://github.com/microsoft/guidance)
+  - generation control
+
+### Agent
+
+- ProAgent: Building Proactive Cooperative AI with Large Language Models
+  - [paper](https://arxiv.org/pdf/2308.11339.pdf)
