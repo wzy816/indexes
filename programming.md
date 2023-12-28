@@ -1,8 +1,10 @@
 # programming
 
-## C
+## C / C++
 
 - Expert C Programming - Deep C Secrets :book:
+- [core guidelines](https://isocpp.github.io/CppCoreGuidelines/)
+- [standards](https://isocpp.org/std/status)
 
 ## Golang
 
