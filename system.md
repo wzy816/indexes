@@ -51,8 +51,10 @@
 - [VLL: a lock manager redesign for main memory database systems](https://www.cs.umd.edu/~abadi/papers/vldbj-vll.pdf)
 - [Foundations of Databases](https://wiki.epfl.ch/provenance2011/documents/foundations+of+databases-abiteboul-1995.pdf)
 
-### Clickhouse
-- https://www.cnblogs.com/bytedata/p/17797465.html
+### ClickHouse
+
+- [ByteHouse](https://www.cnblogs.com/bytedata/p/17797465.html)
 - 源码解读
   - [write MergeTree](https://zhuanlan.zhihu.com/p/460000230)
   - [server](https://sineyuan.github.io/post/clickhouse-source-guide/)
+  - [ClickHouse 和他的朋友们](https://bohutang.me/2020/06/05/clickhouse-and-friends-development/)
