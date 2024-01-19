@@ -50,6 +50,15 @@
 
 - [VLL: a lock manager redesign for main memory database systems](https://www.cs.umd.edu/~abadi/papers/vldbj-vll.pdf)
 - [Foundations of Databases](https://wiki.epfl.ch/provenance2011/documents/foundations+of+databases-abiteboul-1995.pdf)
+- [存储引擎数据结构优化(1):cpu bound](https://www.douban.com/note/304123656/)
+- [存储引擎数据结构优化(2):io bound](https://www.douban.com/note/304349195/)
+- [“写优化”的数据结构(1)：AOF 和 b-tree 之间](https://www.douban.com/note/269741273/)
+- [“写优化”的数据结构(2)：buffered tree](https://www.douban.com/note/269744617/)
+- [“写优化”的数据结构(3)：small-splittable-tree](https://www.douban.com/note/269750379/)
+- [Data Structures and Algorithms for Big Databases](https://www3.cs.stonybrook.edu/~bender/talks/2013-BenderKuszmaul-xldb-tutorial.pdf)
+- [B-Tree vs LSM-Tree](https://tikv.org/deep-dive/key-value-engine/b-tree-vs-lsm/)
+- [ClickHouse 和他的朋友们（5）存储引擎技术进化与 MergeTree](https://bohutang.me/2020/06/20/clickhouse-and-friends-merge-tree-algo/)
+- [Algorithms for Recovery and Isolation Exploiting Semantics](https://en.wikipedia.org/wiki/Algorithms_for_Recovery_and_Isolation_Exploiting_Semantics)
 
 ### ClickHouse
 
