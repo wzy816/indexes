@@ -2,9 +2,8 @@
 
 fine tune a [gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6b) model with dataset [nomic-ai/gpt4all-j-prompt-generations](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)
 
-[source code](https://github.com/wzy816/gpt4all/tree/train)
 
-124.67 hour, single A100 80GB card, result https://wandb.ai/wzy816/gpt4all_gptj_lora_20230515
+124.67 hour, single A100 80GB card
 
 ![](./gpt4all.finetune_gptj_lora_20230515.png)
 
@@ -32,8 +31,7 @@ git lfs pull
 
 # clone repo
 cd ..
-# git clone --recurse-submodules https://github.com/nomic-ai/gpt4all.git
-git clone  --recurse-submodules git@github.com:wzy816/gpt4all.git
+git clone --recurse-submodules https://github.com/nomic-ai/gpt4all.git
 cd gpt4all
 git co train
 git submodule update --init

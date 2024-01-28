@@ -57,7 +57,6 @@
 - [“写优化”的数据结构(3)：small-splittable-tree](https://www.douban.com/note/269750379/)
 - [Data Structures and Algorithms for Big Databases](https://www3.cs.stonybrook.edu/~bender/talks/2013-BenderKuszmaul-xldb-tutorial.pdf)
 - [B-Tree vs LSM-Tree](https://tikv.org/deep-dive/key-value-engine/b-tree-vs-lsm/)
-- [ClickHouse 和他的朋友们（5）存储引擎技术进化与 MergeTree](https://bohutang.me/2020/06/20/clickhouse-and-friends-merge-tree-algo/)
 - [Algorithms for Recovery and Isolation Exploiting Semantics](https://en.wikipedia.org/wiki/Algorithms_for_Recovery_and_Isolation_Exploiting_Semantics)
 
 ### ClickHouse
@@ -67,3 +66,5 @@
   - [write MergeTree](https://zhuanlan.zhihu.com/p/460000230)
   - [server](https://sineyuan.github.io/post/clickhouse-source-guide/)
   - [ClickHouse 和他的朋友们](https://bohutang.me/2020/06/05/clickhouse-and-friends-development/)
+  - [ClickHouse 和他的朋友们（5）存储引擎技术进化与 MergeTree](https://bohutang.me/2020/06/20/clickhouse-and-friends-merge-tree-algo/)
+  - [ClickHouse 和他的朋友们（6）MergeTree 存储结构](https://bohutang.me/2020/06/26/clickhouse-and-friends-merge-tree-disk-layout/)
