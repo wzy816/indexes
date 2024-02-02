@@ -243,3 +243,14 @@
 
 - ProAgent: Building Proactive Cooperative AI with Large Language Models
   - [paper](https://arxiv.org/pdf/2308.11339.pdf)
+
+### multi modal
+
+- clip
+  - [openai](https://github.com/openai/CLIP/blob/main/clip/clip.py)
+  - [towhee](https://github.com/towhee-io/towhee/blob/1.1.3/towhee/models/clip/clip.py)
+  - [hf openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32/tree/main)
+  - [hf clip-ViT-B-32-multilingual](https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1/tree/main)
+- clip4clip
+  - [official](https://github.com/ArrowLuo/CLIP4Clip)
+  - [towhee](https://github.com/towhee-io/towhee/blob/1.1.3/towhee/models/clip4clip/clip4clip.py#L119)
