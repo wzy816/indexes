@@ -7,7 +7,7 @@
 ## Compiler
 
 - [antlr mega tutorial](https://tomassetti.me/antlr-mega-tutorial/#lexers-and-parser)
-- Notes on Formal Language Theory and Parsing :book:
+- [Notes on Formal Language Theory and Parsing](https://ricknouwen.org/d/lecture-notes-formal-languages-nouwen.pdf)
   - Chomsky's grammar hierachy
   - parsing algorithm
     1. use a FILO stack to store rule elements
@@ -23,6 +23,19 @@
 - EBNF: A Notation to Describe Syntax :book:
 - [Basics of Compiler Design](http://hjemmesider.diku.dk/~torbenm/Basics/basics_lulu2.pdf) :book:
 - Parsing Techniques: A Practical Guide
+
+## interlang / artlang / conlang
+
+- Toki Pona
+  - [conlang critic](https://www.youtube.com/watch?v=eLn6LC1RpAo&ab_channel=janMisali)
+  - easy to learn
+- lojban
+  - [The Complete Lojban Language](https://lojban.org/publications/cll/cll_v1.1_book.pdf)
+    - [The Lojban Reference Grammar](https://lojban.github.io/cll/)
+  - [conlang critic](https://www.youtube.com/watch?v=l-unefmAo9k&ab_channel=janMisali)
+- [toaq](https://toaq.me/Main_Page)
+- loglish
+  - [Loglish](https://www.goertzel.org/new_research/Loglish.htm)
 
 ## Versioning
 
@@ -58,13 +71,3 @@
 - [Data Structures and Algorithms for Big Databases](https://www3.cs.stonybrook.edu/~bender/talks/2013-BenderKuszmaul-xldb-tutorial.pdf)
 - [B-Tree vs LSM-Tree](https://tikv.org/deep-dive/key-value-engine/b-tree-vs-lsm/)
 - [Algorithms for Recovery and Isolation Exploiting Semantics](https://en.wikipedia.org/wiki/Algorithms_for_Recovery_and_Isolation_Exploiting_Semantics)
-
-### ClickHouse
-
-- [ByteHouse](https://www.cnblogs.com/bytedata/p/17797465.html)
-- 源码解读
-  - [write MergeTree](https://zhuanlan.zhihu.com/p/460000230)
-  - [server](https://sineyuan.github.io/post/clickhouse-source-guide/)
-  - [ClickHouse 和他的朋友们](https://bohutang.me/2020/06/05/clickhouse-and-friends-development/)
-  - [ClickHouse 和他的朋友们（5）存储引擎技术进化与 MergeTree](https://bohutang.me/2020/06/20/clickhouse-and-friends-merge-tree-algo/)
-  - [ClickHouse 和他的朋友们（6）MergeTree 存储结构](https://bohutang.me/2020/06/26/clickhouse-and-friends-merge-tree-disk-layout/)

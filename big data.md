@@ -110,8 +110,6 @@
 - [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 - HBase
 - [Mesa Geo-Replicated, Near Real-Time, Scalable Data Warehousing](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42851.pdf)
-- [Clickhouse 源码导读](http://sineyuan.github.io/post/clickhouse-source-guide/)
-- [ClickHouse 在字节广告 DMP & CDP 的应用](https://mp.weixin.qq.com/s/lYjIfKS8k9ZHPrxBRYOBrw)
 - [TiDB: A Raft-based HTAP Database](https://www.vldb.org/pvldb/vol13/p3072-huang.pdf)
   - 强调 freshness（分析查询实时性） 和 isolation（事务查询和分析查询资源隔离）
   - 三个 component
@@ -153,6 +151,21 @@
        - min-max pruning
 - [Building An Elastic Query Engine on Disaggregated Storage](https://www.usenix.org/system/files/nsdi20-paper-vuppalapati.pdf)
   - local ephemeral storage as write-through cache
+
+### ClickHouse
+
+- [ByteHouse](https://www.cnblogs.com/bytedata/p/17797465.html)
+- 源码解读
+  - [write MergeTree](https://zhuanlan.zhihu.com/p/460000230)
+  - [server](https://sineyuan.github.io/post/clickhouse-source-guide/)
+  - [ClickHouse 和他的朋友们](https://bohutang.me/2020/06/05/clickhouse-and-friends-development/)
+  - [ClickHouse 和他的朋友们（5）存储引擎技术进化与 MergeTree](https://bohutang.me/2020/06/20/clickhouse-and-friends-merge-tree-algo/)
+  - [ClickHouse 和他的朋友们（6）MergeTree 存储结构](https://bohutang.me/2020/06/26/clickhouse-and-friends-merge-tree-disk-layout/)
+- vector search
+  - [p1](https://clickhouse.com/blog/vector-search-clickhouse-p1)
+  - [p2](https://clickhouse.com/blog/vector-search-clickhouse-p2)
+- [Clickhouse 源码导读](http://sineyuan.github.io/post/clickhouse-source-guide/)
+- [ClickHouse 在字节广告 DMP & CDP 的应用](https://mp.weixin.qq.com/s/lYjIfKS8k9ZHPrxBRYOBrw)
 
 ## Distribute Systems
 
