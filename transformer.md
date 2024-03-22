@@ -254,3 +254,6 @@
 - clip4clip
   - [official](https://github.com/ArrowLuo/CLIP4Clip)
   - [towhee](https://github.com/towhee-io/towhee/blob/1.1.3/towhee/models/clip4clip/clip4clip.py#L119)
+- owl-vit
+  - [paper](https://arxiv.org/pdf/2205.06230.pdf)
+  - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)

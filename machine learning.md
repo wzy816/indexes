@@ -353,6 +353,7 @@
 ## Training
 
 - Population Based Training of Neural Networks :book:
+- [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/abs/2402.15627)
 
 ## Datasets
 
