@@ -450,6 +450,7 @@
 
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
+  - [read](./paper/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
 
 ## Datasets
 
