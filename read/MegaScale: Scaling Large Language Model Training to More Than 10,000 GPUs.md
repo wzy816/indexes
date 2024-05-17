@@ -1,6 +1,6 @@
-#
+# MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs
 
-## 总结
+##
 
 1. **问题解决**：
    这篇论文介绍了一个名为 MegaScale 的生产系统，旨在解决在超过 10,000 个 GPU 上训练大型语言模型（LLMs）时面临的前所未有的挑战。这些挑战包括训练效率和稳定性，因为大规模训练任务的长时间性质使得稳定性成为一个重要的考虑因素。

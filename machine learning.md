@@ -450,7 +450,7 @@
 
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
-  - [read](./paper/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
+  - [read](./read/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
 
 ## Datasets
 
@@ -738,5 +738,7 @@ ChatGPT,Claude
   - [official](https://github.com/ArrowLuo/CLIP4Clip)
   - [towhee](https://github.com/towhee-io/towhee/blob/1.1.3/towhee/models/clip4clip/clip4clip.py#L119)
 - owl-vit
+  - Simple Open-Vocabulary Object Detection with Vision Transformers
   - [paper](https://arxiv.org/pdf/2205.06230.pdf)
   - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)
+  - [read](./read/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
