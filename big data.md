@@ -170,7 +170,7 @@
 ## Distribute Systems
 
 - distributed systems :book:
-- A Note on Distributed Computing :book:
+- [A Note on Distributed Computing](https://scholar.harvard.edu/files/waldo/files/waldo-94.pdf)
 - fallacies of distributed computing explained :book:
 - [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/)
   - [The Chubby Lock Service notes](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
