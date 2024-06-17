@@ -171,12 +171,26 @@
 
 - distributed systems :book:
 - [A Note on Distributed Computing](https://scholar.harvard.edu/files/waldo/files/waldo-94.pdf)
+  - [kimi](./read/A%20Note%20on%20Distributed%20Computing.md)
 - fallacies of distributed computing explained :book:
 - [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/)
   - [The Chubby Lock Service notes](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
 - [Zookeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 - Technical Report: HybridTime - Accessible Global Consistency with High Clock Uncertainty
+
+### Causality
+
+- [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
+  - [kimi](./read/Time,%20Clocks,%20and%20the%20Ordering%20of%20Events%20in%20a%20Distributed%20System.md)
+  - [解读](http://zhangtielei.com/posts/blog-time-clock-ordering.html)
+- [Interval Tree Clocks: A Logical Clock for Dynamic Systems](https://gsd.di.uminho.pt/members/cbm/ps/itc2008.pdf)
+  - [kimi](./read/Interval%20Tree%20Clocks:%20A%20Logical%20Clock%20for%20Dynamic%20Systems.md)
+
+### consistency
+
+- [条分缕析分布式：到底什么是一致性？](http://zhangtielei.com/posts/blog-distributed-consistency.html)
+- [条分缕析分布式：浅析强弱一致性](http://zhangtielei.com/posts/blog-distributed-strong-weak-consistency.html)
 
 ### Consensus
 

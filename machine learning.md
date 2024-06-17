@@ -450,7 +450,7 @@
 
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
-  - [read](./read/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
+  - [kimi](./read/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
 
 ## Datasets
 
@@ -741,4 +741,4 @@ ChatGPT,Claude
   - Simple Open-Vocabulary Object Detection with Vision Transformers
   - [paper](https://arxiv.org/pdf/2205.06230.pdf)
   - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)
-  - [read](./read/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
+  - [kimi](./read/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
