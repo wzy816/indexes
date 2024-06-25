@@ -517,6 +517,9 @@
 - [Levels of AGI: Operationalizing Progress on the Path to AGI](https://arxiv.org/pdf/2311.02462.pdf)
   - define 6 criteria of AGI and 6-level ontology of AGI
 - [THE IMPACT OF DEPTH AND WIDTH ON TRANSFORMER LANGUAGE MODEL GENERALIZATION](https://arxiv.org/pdf/2310.19956.pdf)
+- [llm app stack](https://github.com/a16z-infra/llm-app-stack)
+  - [post](https://a16z.com/emerging-architectures-for-llm-applications/)
+- [DREAM-LOGIC, THE INTERNET AND ARTIFICIAL THOUGHT](https://www.edge.org/conversation/david_gelernter-dream-logic-the-internet-and-artificial-thought)
 
 ### Transformer & Attention
 
@@ -725,6 +728,8 @@ ChatGPT,Claude
 
 - ProAgent: Building Proactive Cooperative AI with Large Language Models
   - [paper](https://arxiv.org/pdf/2308.11339.pdf)
+- AutoGPT
+  - [github](https://github.com/Significant-Gravitas/AutoGPT)
 
 ### multi modal
 

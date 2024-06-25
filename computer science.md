@@ -141,6 +141,7 @@
 - NODE.JS 入门 :book:
 - <https://30secondsofcode.org/#minn>
 - <https://github.com/stephentian/33-js-concepts>
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
 
 ## Latex
 

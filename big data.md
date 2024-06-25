@@ -178,6 +178,7 @@
 - [Zookeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 - Technical Report: HybridTime - Accessible Global Consistency with High Clock Uncertainty
+- [The Distributed Reader](https://reiddraper.github.io/distreader/)
 
 ### Causality
 
