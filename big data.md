@@ -203,6 +203,7 @@
   - for system with partition, tradeoff btw consistency and availability
   - for system with no partition, tradeoff btw consistency and latency
 - [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
+  - [kimi](./read/In%20Search%20of%20an%20Understandable%20Consensus%20Algorithm.md)
 
 ## Dataset
 
@@ -210,3 +211,4 @@
   - extract metadata of billions of dataset
 - WEB SEARCH FOR A PLANET THE GOOGLE CLUSTER ARCHITECTURE :book:
 - [Dremel Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
+  - [kimi](./read/Dremel%20Interactive%20Analysis%20of%20Web-Scale%20Datasets.md)
