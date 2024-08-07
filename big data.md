@@ -167,6 +167,18 @@
 - [Clickhouse 源码导读](http://sineyuan.github.io/post/clickhouse-source-guide/)
 - [ClickHouse 在字节广告 DMP & CDP 的应用](https://mp.weixin.qq.com/s/lYjIfKS8k9ZHPrxBRYOBrw)
 
+### Milvus
+
+- deep dive
+  - <https://milvus.io/blog/deep-dive-1-milvus-architecture-overview.md>
+  - <https://milvus.io/blog/deep-dive-2-milvus-sdk-and-api.md>
+  - <https://milvus.io/blog/deep-dive-3-data-processing.md>
+  - <https://milvus.io/blog/deep-dive-4-data-insertion-and-data-persistence.md>
+  - <https://milvus.io/blog/deep-dive-5-real-time-query.md>
+  - <https://milvus.io/blog/deep-dive-6-oss-qa.md>
+  - <https://milvus.io/blog/deep-dive-7-query-expression.md>
+  - <https://milvus.io/blog/deep-dive-8-knowhere.md>
+
 ## Distribute Systems
 
 - distributed systems :book:
