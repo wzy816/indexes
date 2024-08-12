@@ -169,6 +169,7 @@
 
 ### Milvus
 
+- [paper](https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD21_Milvus.pdf)
 - deep dive
   - <https://milvus.io/blog/deep-dive-1-milvus-architecture-overview.md>
   - <https://milvus.io/blog/deep-dive-2-milvus-sdk-and-api.md>
@@ -178,12 +179,16 @@
   - <https://milvus.io/blog/deep-dive-6-oss-qa.md>
   - <https://milvus.io/blog/deep-dive-7-query-expression.md>
   - <https://milvus.io/blog/deep-dive-8-knowhere.md>
+- DiskANN
+  - [paper](https://suhasjs.github.io/files/diskann_neurips19.pdf)
+  - [Paper Reading | DiskANN： 十亿规模数据集上高召回高 QPS 的 ANNS 单机方案](https://cloud.tencent.com/developer/article/1865556)
+  - [kimi](kimi/DiskANN:%20Fast%20Accurate%20Billion-point%20Nearest%20Neighbor%20Search%20on%20a%20Single%20Node.md)
 
 ## Distribute Systems
 
 - distributed systems :book:
 - [A Note on Distributed Computing](https://scholar.harvard.edu/files/waldo/files/waldo-94.pdf)
-  - [kimi](./read/A%20Note%20on%20Distributed%20Computing.md)
+  - [kimi](kimi/A%20Note%20on%20Distributed%20Computing.md)
 - fallacies of distributed computing explained :book:
 - [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/)
   - [The Chubby Lock Service notes](https://github.com/jguamie/system-design/blob/master/notes/chubby-lock-service.md)
@@ -195,12 +200,12 @@
 ### Causality
 
 - [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
-  - [kimi](./read/Time,%20Clocks,%20and%20the%20Ordering%20of%20Events%20in%20a%20Distributed%20System.md)
+  - [kimi](kimi/Time,%20Clocks,%20and%20the%20Ordering%20of%20Events%20in%20a%20Distributed%20System.md)
   - [解读](http://zhangtielei.com/posts/blog-time-clock-ordering.html)
 - [Interval Tree Clocks: A Logical Clock for Dynamic Systems](https://gsd.di.uminho.pt/members/cbm/ps/itc2008.pdf)
-  - [kimi](./read/Interval%20Tree%20Clocks:%20A%20Logical%20Clock%20for%20Dynamic%20Systems.md)
+  - [kimi](kimi/Interval%20Tree%20Clocks:%20A%20Logical%20Clock%20for%20Dynamic%20Systems.md)
 
-### consistency
+### Consistency
 
 - [条分缕析分布式：到底什么是一致性？](http://zhangtielei.com/posts/blog-distributed-consistency.html)
 - [条分缕析分布式：浅析强弱一致性](http://zhangtielei.com/posts/blog-distributed-strong-weak-consistency.html)
@@ -215,7 +220,7 @@
   - for system with partition, tradeoff btw consistency and availability
   - for system with no partition, tradeoff btw consistency and latency
 - [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)
-  - [kimi](./read/In%20Search%20of%20an%20Understandable%20Consensus%20Algorithm.md)
+  - [kimi](kimi/In%20Search%20of%20an%20Understandable%20Consensus%20Algorithm.md)
 
 ## Dataset
 
@@ -223,4 +228,4 @@
   - extract metadata of billions of dataset
 - WEB SEARCH FOR A PLANET THE GOOGLE CLUSTER ARCHITECTURE :book:
 - [Dremel Interactive Analysis of Web-Scale Datasets](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36632.pdf)
-  - [kimi](./read/Dremel%20Interactive%20Analysis%20of%20Web-Scale%20Datasets.md)
+  - [kimi](kimi/Dremel%20Interactive%20Analysis%20of%20Web-Scale%20Datasets.md)
