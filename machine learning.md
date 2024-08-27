@@ -747,3 +747,13 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2205.06230.pdf)
   - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)
   - [kimi](kimi/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
+- GAIA-1: A Generative World Model for Autonomous Driving
+  - [paper](https://arxiv.org/pdf/2309.17080)
+  - [kimi](kimi/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
+  - [wayve](https://wayve.ai/science/gaia/)
+
+### Inference
+
+- vllm
+  - [website](https://docs.vllm.ai/en/v0.4.2/index.html)
+  - [paged attention](https://blog.vllm.ai/2023/06/20/vllm.html)

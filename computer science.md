@@ -3,6 +3,7 @@
 ## Principles
 
 - 编码：隐匿在计算机软硬件背后的语言 :book:
+- [小林 x 图解计算机基础](https://xiaolincoding.com/)
 
 ## Compiler
 

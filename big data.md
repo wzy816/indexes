@@ -183,6 +183,7 @@
   - [paper](https://suhasjs.github.io/files/diskann_neurips19.pdf)
   - [Paper Reading | DiskANN： 十亿规模数据集上高召回高 QPS 的 ANNS 单机方案](https://cloud.tencent.com/developer/article/1865556)
   - [kimi](kimi/DiskANN:%20Fast%20Accurate%20Billion-point%20Nearest%20Neighbor%20Search%20on%20a%20Single%20Node.md)
+  - [github](https://github.com/microsoft/DiskANN)
 
 ## Distribute Systems
 
