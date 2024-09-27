@@ -520,6 +520,8 @@
 - [llm app stack](https://github.com/a16z-infra/llm-app-stack)
   - [post](https://a16z.com/emerging-architectures-for-llm-applications/)
 - [DREAM-LOGIC, THE INTERNET AND ARTIFICIAL THOUGHT](https://www.edge.org/conversation/david_gelernter-dream-logic-the-internet-and-artificial-thought)
+- [llm visualization](https://bbycroft.net/llm)
+- [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
 
 ### Transformer & Attention
 
@@ -656,6 +658,8 @@ Vicuna,alpaca
   - [blog](https://crfm.stanford.edu/2023/03/13/alpaca.html)
   - [github](https://github.com/tatsu-lab/stanford_alpaca/blob/main/train.py)
   - [hf weight diff](https://huggingface.co/tatsu-lab/alpaca-7b-wdiff)
+- LLaMA-Factory
+  [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
 
 ### RL Model
 

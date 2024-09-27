@@ -179,6 +179,7 @@
 - Clever Algorithms: Nature-inspired Programming Recipes
 - [Hello 算法](https://www.hello-algo.com/chapter_preface/)
 - [Algorithm by liuzhenglaichn](https://liuzhenglaichn.gitbook.io/algorithm/)
+- [bioinformatics](https://rosalind.info/problems/list-view/)
 
 ## t-digest
 
@@ -198,7 +199,7 @@
 - [MIT 课程线性代数的笔记](https://github.com/zlotus/notes-linear-algebra)
 - 《Linear Algebra and Its Application》Gilbert Strang
 
-## UI Interaction
+## UI
 
 - [User Interface Analysis and Design](https://www.slideshare.net/SaqibRaza21/user-interface-analysis-and-design) :book:
 - Reactive Vega: A Streaming Dataflow Architecture for Declarative Interactive Visualization :book:
@@ -210,6 +211,7 @@
 - Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods :book:
 - Empirical Studies in Information Visualization: Seven Scenarios :book:
   - help make right evaluation goal, pick right question
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 ## computer graphic
 
