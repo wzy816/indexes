@@ -213,6 +213,10 @@
   - help make right evaluation goal, pick right question
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
+## App
+
+- [深入浅出现代 Web 编程](https://fullstackopen.com/zh/)
+
 ## computer graphic
 
 - [书单](https://github.com/GraphiCon/-)
