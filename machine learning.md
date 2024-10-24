@@ -21,6 +21,7 @@
 - 《集体智慧编程》
 - 《AnIntroduction to Statistical Learning》
 - 《the elements of statistical learning》
+- [What’s Really Going On in Machine Learning? Some Minimal Models](https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/)
 
 ## Bayesian
 
@@ -668,6 +669,8 @@ ChatGPT,Claude
 - ChatGPT from openai
   - [sharegpt](https://shareg.pt/4qj1DB0)
 - Claude from Anthropic
+- OpenAI o1
+  - [system card](https://cdn.openai.com/o1-system-card-20240917.pdf)
 
 ### Quantization
 
@@ -679,6 +682,7 @@ ChatGPT,Claude
 ### Safety
 
 - [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/pdf/2209.07858.pdf)
+- [Jailbreaking Large Language Models with Symbolic Mathematics](https://arxiv.org/pdf/2409.11445)
 
 ### Fine Tuning
 
@@ -701,6 +705,11 @@ ChatGPT,Claude
     - [github](https://github.com/yizhongw/self-instruct)
   - [LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS](https://arxiv.org/pdf/2211.01910.pdf)
     - using LLMs to generate and select instructions automatically, program synthesis
+- prompt
+  - [prompt base](https://promptbase.com/)
+  - [awesome chatgpt prompts](https://github.com/f/awesome-chatgpt-prompts)
+  - [prompt-poet](https://github.com/character-ai/prompt-poet)
+  - [提示词注入 VS 越狱](https://baoyu.io/translations/prompt-engineering/prompt-injection-vs-jailbreaking-difference)
 
 ### Scaling / Emergent Behaviour
 
@@ -734,6 +743,12 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2308.11339.pdf)
 - AutoGPT
   - [github](https://github.com/Significant-Gravitas/AutoGPT)
+- SIMA: Scalable Instructable Multiworld Agent
+  - [blog](https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/)
+  - [paper](https://arxiv.org/pdf/2404.10179)
+- ell
+  - [github](https://github.com/simonmysun/ell)
+- [planning for agents](https://blog.langchain.dev/planning-for-agents/)
 
 ### multi modal
 
@@ -755,6 +770,11 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2309.17080)
   - [kimi](kimi/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
   - [wayve](https://wayve.ai/science/gaia/)
+
+### system
+
+- [5 Chunking Strategies For RAG](https://blog.dailydoseofds.com/p/5-chunking-strategies-for-rag?=)
+- [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 
 ### Inference
 
