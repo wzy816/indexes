@@ -189,16 +189,6 @@
 - [TDigestUDAF](https://github.com/isarn/isarn-sketches-spark/blob/master/src/main/scala/org/isarnproject/sketches/udaf/TDigestUDAF.scala)
 - [有问题的 python 实现](https://github.com/CamDavidsonPilon/tdigest/blob/master/tdigest/tdigest.py)
 
-## math
-
-### linear algebra
-
-- 《LINEAR ALGEBRA FOR EVERYONE》Gilbert Strang 下载在 libgen
-  - best
-  - [the art of linear algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
-- [MIT 课程线性代数的笔记](https://github.com/zlotus/notes-linear-algebra)
-- 《Linear Algebra and Its Application》Gilbert Strang
-
 ## UI
 
 - [User Interface Analysis and Design](https://www.slideshare.net/SaqibRaza21/user-interface-analysis-and-design) :book:
