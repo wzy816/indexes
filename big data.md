@@ -197,6 +197,8 @@
 - Dapper, a Large-Scale Distributed Systems Tracing Infrastructure
 - Technical Report: HybridTime - Accessible Global Consistency with High Clock Uncertainty
 - [The Distributed Reader](https://reiddraper.github.io/distreader/)
+- [A Distributed Systems Reading List](https://dancres.github.io/Pages/)
+- [学习分布式系统需要怎样的知识？](https://www.zhihu.com/question/23645117/answer/108171462)
 
 ### Causality
 

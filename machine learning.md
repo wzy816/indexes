@@ -767,11 +767,9 @@ ChatGPT,Claude
   - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)
   - [kimi](kimi/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
 - GAIA-1: A Generative World Model for Autonomous Driving
-
   - [paper](https://arxiv.org/pdf/2309.17080)
   - [kimi](kimi/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
   - [wayve](https://wayve.ai/science/gaia/)
-
 - MolmoE
   - [paper](https://molmo.allenai.org/paper.pdf)
   - [1B](https://huggingface.co/allenai/MolmoE-1B-0924)
@@ -780,6 +778,7 @@ ChatGPT,Claude
 
 - [5 Chunking Strategies For RAG](https://blog.dailydoseofds.com/p/5-chunking-strategies-for-rag?=)
 - [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html)
+- [mem0](https://docs.mem0.ai/overview)
 
 ### Inference
 
