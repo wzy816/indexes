@@ -540,6 +540,9 @@
   - [hf doc](https://huggingface.co/docs/transformers/model_doc/perceiver)
   - [deepmind jax implementation](https://github.com/deepmind/deepmind-research/blob/master/perceiver/README.md)
   - [pytorch implementation](https://github.com/krasserm/perceiver-io)
+- Attention as an RNN
+  - [paper](https://arxiv.org/pdf/2405.13956)
+  - [kimi](kimi/Attention%20as%20an%20RNN.md)
 
 ### Long-Range attention
 
