@@ -452,6 +452,9 @@
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
   - [kimi](kimi/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
+- [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277)
+  - [kimi](kimi/PyTorch%20FSDP:%20Experiences%20on%20Scaling%20Fully%20Sharded%20Data%20Parallel.md)
+- [Fully Sharded Data Parallel: faster AI training with fewer GPUs](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
 
 ## Datasets
 
