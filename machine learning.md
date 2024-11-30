@@ -447,7 +447,7 @@
 - Character-level Convolutional Networks for Text Classification :book:
 - Bag of Tricks for Efficient Text Classification :book:
 
-## Training
+## Training & Inference
 
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
@@ -455,6 +455,12 @@
 - [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277)
   - [kimi](kimi/PyTorch%20FSDP:%20Experiences%20on%20Scaling%20Fully%20Sharded%20Data%20Parallel.md)
 - [Fully Sharded Data Parallel: faster AI training with fewer GPUs](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
+- vllm
+  - [website](https://docs.vllm.ai/en/v0.4.2/index.html)
+  - [paged attention](https://blog.vllm.ai/2023/06/20/vllm.html)
+- [Transformer Model Parallelism](https://huggingface.co/docs/transformers/v4.19.4/en/parallelism)
+- [Efficient Training on Multiple GPUs](https://huggingface.co/docs/transformers/perf_train_gpu_many)
+- [Large Model Training and Inference with DeepSpeed // Samyam Rajbhandari // LLMs in Prod Conference](https://www.youtube.com/watch?v=cntxC3g22oU)
 
 ## Datasets
 
@@ -776,21 +782,16 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2309.17080)
   - [kimi](kimi/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
   - [wayve](https://wayve.ai/science/gaia/)
-- MolmoE
-  - [paper](https://molmo.allenai.org/paper.pdf)
-  - [1B](https://huggingface.co/allenai/MolmoE-1B-0924)
+- Molmo
+  - [paper](https://arxiv.org/pdf/2409.17146)
+  - [7B](https://huggingface.co/allenai/Molmo-7B-D-0924/)
+  - [blog](https://molmo.allenai.org/blog)
 
 ### system
 
 - [5 Chunking Strategies For RAG](https://blog.dailydoseofds.com/p/5-chunking-strategies-for-rag?=)
 - [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 - [mem0](https://docs.mem0.ai/overview)
-
-### Inference
-
-- vllm
-  - [website](https://docs.vllm.ai/en/v0.4.2/index.html)
-  - [paged attention](https://blog.vllm.ai/2023/06/20/vllm.html)
 
 ### IDE
 
