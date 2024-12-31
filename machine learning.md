@@ -498,6 +498,10 @@
 - [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf)
   - no true reward function
 
+### Monte Carlo
+
+- [A Survey of Monte Carlo Tree Search Methods](http://www.incompleteideas.net/609%20dropbox/other%20readings%20and%20resources/MCTS-survey.pdf)
+
 ## transformer
 
 ### AIGC
@@ -786,6 +790,11 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2409.17146)
   - [7B](https://huggingface.co/allenai/Molmo-7B-D-0924/)
   - [blog](https://molmo.allenai.org/blog)
+- Qwen2-VL-7B-Instruct
+  - [](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)
+- Llama-3.2-11B-Vision-Instruct
+  - [huggingface](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/tree/main)
+  - [alpindale](https://huggingface.co/alpindale/Llama-3.2-11B-Vision-Instruct)
 
 ### system
 
