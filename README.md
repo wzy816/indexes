@@ -1,3 +1,3 @@
 # INDEXES
 
-books, papers and courses, notes and code snippets
+books, papers and courses and notes
