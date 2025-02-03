@@ -19,9 +19,12 @@
 - Artificial intelligence: A Modern Approach, Stuart Jonathan Russell 和 Peter Norvig
 - [deep learning](https://www.deeplearningbook.org/)
 - 《集体智慧编程》
-- 《AnIntroduction to Statistical Learning》
+- 《An Introduction to Statistical Learning》
 - 《the elements of statistical learning》
 - [What’s Really Going On in Machine Learning? Some Minimal Models](https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/)
+- 《Statistical Rethinking》
+  - <https://xcelab.net/rm/>
+  - [numpyro](https://fehiepsi.github.io/rethinking-numpyro/)
 
 ## Bayesian
 
@@ -31,6 +34,9 @@
 - [Categorical Reparameterization with Gumbel-Softmax](https://www.youtube.com/watch?v=JFgXEbgcT7g) :book:
 - [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712)
   - <https://github.com/ericjang/gumbel-softmax>
+- [Bayesian Methods for Media Mix Modeling with Carryover andShape Effects](https://storage.googleapis.com/gweb-research2023-media/pubtools/3806.pdf)
+- [Challenges And Opportunities In Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3803.pdf)
+- [Geo-level Bayesian Hierarchical Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3804.pdf)
 
 ## Hidden Markov Models
 
