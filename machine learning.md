@@ -733,6 +733,9 @@ ChatGPT,Claude
   - [awesome chatgpt prompts](https://github.com/f/awesome-chatgpt-prompts)
   - [prompt-poet](https://github.com/character-ai/prompt-poet)
   - [提示词注入 VS 越狱](https://baoyu.io/translations/prompt-engineering/prompt-injection-vs-jailbreaking-difference)
+  - LARGE LANGUAGE MODELS AS ANALOGICAL REASONERS
+    - [paper](https://arxiv.org/pdf/2310.01714)
+    - [kimi](kimi/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
 
 ### Scaling / Emergent Behaviour
 
@@ -759,6 +762,10 @@ ChatGPT,Claude
   - [github](https://github.com/GPT-Fathom/GPT-Fathom)
 - [guidance](https://github.com/microsoft/guidance)
   - generation control
+- A Survey on Evaluation of Large Language Models
+  - [paper](https://arxiv.org/pdf/2307.03109)
+  - [kimi](kimi/A%20Survey%20on%20Evaluation%20of%20Large%20Language%20Models.md)
+  - chain-of-thought prompting approach, prompts language models to self-generate relevant exemplars or knowledge in the context, before proceeding to solve the given problem.
 
 ### Agent
 
@@ -772,6 +779,8 @@ ChatGPT,Claude
 - ell
   - [github](https://github.com/simonmysun/ell)
 - [planning for agents](https://blog.langchain.dev/planning-for-agents/)
+- Cognitive Architectures for Language Agents
+  - [paper](https://arxiv.org/pdf/2309.02427)
 
 ### multi modal
 
