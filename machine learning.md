@@ -22,9 +22,6 @@
 - 《An Introduction to Statistical Learning》
 - 《the elements of statistical learning》
 - [What’s Really Going On in Machine Learning? Some Minimal Models](https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/)
-- 《Statistical Rethinking》
-  - <https://xcelab.net/rm/>
-  - [numpyro](https://fehiepsi.github.io/rethinking-numpyro/)
 
 ## Bayesian
 
@@ -37,6 +34,10 @@
 - [Bayesian Methods for Media Mix Modeling with Carryover andShape Effects](https://storage.googleapis.com/gweb-research2023-media/pubtools/3806.pdf)
 - [Challenges And Opportunities In Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3803.pdf)
 - [Geo-level Bayesian Hierarchical Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3804.pdf)
+- 《Statistical Rethinking》by Richard McElreath
+  - <https://xcelab.net/rm/>
+  - [numpyro](https://fehiepsi.github.io/rethinking-numpyro/)
+  - [course and book](https://github.com/rmcelreath/rethinking)
 
 ## Hidden Markov Models
 
