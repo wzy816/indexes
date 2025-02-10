@@ -34,7 +34,7 @@
 - [Bayesian Methods for Media Mix Modeling with Carryover andShape Effects](https://storage.googleapis.com/gweb-research2023-media/pubtools/3806.pdf)
 - [Challenges And Opportunities In Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3803.pdf)
 - [Geo-level Bayesian Hierarchical Media Mix Modeling](https://storage.googleapis.com/gweb-research2023-media/pubtools/3804.pdf)
-- 《Statistical Rethinking》by Richard McElreath
+- 《Statistical Rethinking》 by Richard McElreath
   - <https://xcelab.net/rm/>
   - [numpyro](https://fehiepsi.github.io/rethinking-numpyro/)
   - [course and book](https://github.com/rmcelreath/rethinking)
@@ -42,6 +42,10 @@
 ## Hidden Markov Models
 
 - A Revealing Introduction to Hidden Markov Models :book:
+
+### Monte Carlo
+
+- [A Survey of Monte Carlo Tree Search Methods](http://www.incompleteideas.net/609%20dropbox/other%20readings%20and%20resources/MCTS-survey.pdf)
 
 ## Conditional Random Fields
 
@@ -499,15 +503,14 @@
 - [MarIQ](https://www.youtube.com/watch?v=Tnu4O_xEmVk)
 - [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/pdf/1910.07738v2.pdf)
 - [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810.pdf)
+- Planning-oriented Autonomous Driving
+  - [paper](https://arxiv.org/pdf/2212.10156)
+  - [kimi](kimi/Planning-oriented%20Autonomous%20Driving.md)
 
 ## Reinforcement Learning
 
 - [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf)
   - no true reward function
-
-### Monte Carlo
-
-- [A Survey of Monte Carlo Tree Search Methods](http://www.incompleteideas.net/609%20dropbox/other%20readings%20and%20resources/MCTS-survey.pdf)
 
 ## transformer
 
