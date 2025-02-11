@@ -546,6 +546,7 @@
 - [DREAM-LOGIC, THE INTERNET AND ARTIFICIAL THOUGHT](https://www.edge.org/conversation/david_gelernter-dream-logic-the-internet-and-artificial-thought)
 - [llm visualization](https://bbycroft.net/llm)
 - [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
+- [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs/) :star:
 
 ### Transformer & Attention
 
@@ -637,7 +638,7 @@ GPT,LlaMa
   - evaluation paper [Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374.pdf)
 - GPT4
   - [blog by openai](https://openai.com/research/gpt-4)
-- [LlaMa](transformer/llama.md)
+- LlaMa
   - train on roughly 1.4T tokens from public data only
   - norm input at each layer; use SwiGLU; use RoPe
   - performance
@@ -655,6 +656,12 @@ GPT,LlaMa
   - inference
     - [llama.cpp](https://github.com/ggerganov/llama.cpp)
     - [llama2.c](https://github.com/karpathy/llama2.c)
+- DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
+  - [paper](https://arxiv.org/pdf/2405.04434)
+  - [kimi](kimi/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
+- DeepSeek-V3 Technical Report
+  - [paper](https://arxiv.org/pdf/2412.19437)
+  - [kimi](kimi/DeepSeek-V3%20Technical%20Report.md)
 
 ### Supervised Fine-Tuning (SFT) Model
 
@@ -670,7 +677,7 @@ Vicuna,alpaca
   - [blog](https://lmsys.org/blog/2023-03-30-vicuna/)
   - release delta weights on [llama](https://huggingface.co/docs/transformers/main/model_doc/llama)
   - [hf](https://huggingface.co/lmsys/vicuna-13b-delta-v1.1)
-- [gpt4all](transformer/gpt4all.md)
+- gpt4all
   - fine tune gpt-j-6b with nomic-ai/gpt4all-j-prompt-generations with lora
   - [github](https://github.com/nomic-ai/gpt4all)
   - [technical report](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf)
@@ -697,6 +704,15 @@ ChatGPT,Claude
 - Claude from Anthropic
 - OpenAI o1
   - [system card](https://cdn.openai.com/o1-system-card-20240917.pdf)
+- DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
+  - [paper](https://arxiv.org/pdf/2501.12948)
+  - [kimi](kimi/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
+  - 3 contributions:
+    - DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
+    - DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
+    - Distill Model
+  - [DeepSeek R1 是怎么训练出来的？- R1 论文精读](https://blog.cnbang.net/tech/4160/)
+  - [A brief look at the DeepSeek training pipeline](https://magazine.sebastianraschka.com/i/156484949/a-brief-look-at-the-deepseek-training-pipeline)
 
 ### Quantization
 
@@ -710,18 +726,27 @@ ChatGPT,Claude
 - [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/pdf/2209.07858.pdf)
 - [Jailbreaking Large Language Models with Symbolic Mathematics](https://arxiv.org/pdf/2409.11445)
 
-### Fine Tuning
+### Parameter-efficient Fine Tuning (PEFT)
 
-- PEFT
-  - Parameter-efficient fine-tuning of large-scale pre-trained language models
-  - Towards a unified view of parameter-efficient transfer learning
-  - [github](https://github.com/huggingface/peft)
-  - LoRA
-    - [paper](https://arxiv.org/pdf/2106.09685.pdf)
-    - [github](https://github.com/microsoft/LoRA)
-    - alpaca lora
-      - [github](https://github.com/tloen/alpaca-lora)
-      - [hf weights](https://huggingface.co/tloen/alpaca-lora-7b)
+- 两种下游任务适配方法
+  1. 上下文学习（In-context learning）
+  2. 指令微调（Instruction Tuning）
+- 主流三种 PEFT 方法
+  1. 参数附加方法（Additional Parameters Methods）
+  2. 参数选择方法（Parameter Selection Methods）
+  3. 低秩适配方法（Low-Rank Adaptation Methods）
+- [huggingface peft](https://github.com/huggingface/peft)
+- Parameter-efficient fine-tuning of large-scale pre-trained language models
+  - [](https://www.nature.com/articles/s42256-023-00626-4)
+- Towards a Unified View of Parameter-Efficient Transfer Learning
+  - [paper](https://arxiv.org/pdf/2110.04366)
+  - [kimi](kimi/Towards%20a%20Unified%20View%20of%20Parameter-Efficient%20Transfer%20Learning.md)
+- LoRA
+  - [paper](https://arxiv.org/pdf/2106.09685.pdf)
+  - [github](https://github.com/microsoft/LoRA)
+  - alpaca lora
+    - [github](https://github.com/tloen/alpaca-lora)
+    - [hf weights](https://huggingface.co/tloen/alpaca-lora-7b)
 - instruction learning / zero shot
   - [awesome](https://github.com/RenzeLou/awesome-instruction-learning)
   - [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475.pdf)
@@ -731,14 +756,16 @@ ChatGPT,Claude
     - [github](https://github.com/yizhongw/self-instruct)
   - [LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS](https://arxiv.org/pdf/2211.01910.pdf)
     - using LLMs to generate and select instructions automatically, program synthesis
-- prompt
-  - [prompt base](https://promptbase.com/)
-  - [awesome chatgpt prompts](https://github.com/f/awesome-chatgpt-prompts)
-  - [prompt-poet](https://github.com/character-ai/prompt-poet)
-  - [提示词注入 VS 越狱](https://baoyu.io/translations/prompt-engineering/prompt-injection-vs-jailbreaking-difference)
-  - LARGE LANGUAGE MODELS AS ANALOGICAL REASONERS
-    - [paper](https://arxiv.org/pdf/2310.01714)
-    - [kimi](kimi/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
+
+### prompt
+
+- [prompt base](https://promptbase.com/)
+- [awesome chatgpt prompts](https://github.com/f/awesome-chatgpt-prompts)
+- [prompt-poet](https://github.com/character-ai/prompt-poet)
+- [提示词注入 VS 越狱](https://baoyu.io/translations/prompt-engineering/prompt-injection-vs-jailbreaking-difference)
+- LARGE LANGUAGE MODELS AS ANALOGICAL REASONERS
+  - [paper](https://arxiv.org/pdf/2310.01714)
+  - [kimi](kimi/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
 
 ### Scaling / Emergent Behaviour
 
@@ -815,14 +842,12 @@ ChatGPT,Claude
   - [huggingface](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/tree/main)
   - [alpindale](https://huggingface.co/alpindale/Llama-3.2-11B-Vision-Instruct)
 
-### system
+### System
 
 - [5 Chunking Strategies For RAG](https://blog.dailydoseofds.com/p/5-chunking-strategies-for-rag?=)
 - [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html)
 - [mem0](https://docs.mem0.ai/overview)
-
-### IDE
-
-- [bolt](https://bolt.new/)
-- [cursor](https://www.cursor.com/)
-- [stackblitz](https://stackblitz.com/)
+- IDE
+  - [bolt](https://bolt.new/)
+  - [cursor](https://www.cursor.com/)
+  - [stackblitz](https://stackblitz.com/)
