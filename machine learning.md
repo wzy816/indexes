@@ -548,7 +548,7 @@
 - [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
 - [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs/) :star:
 
-### Transformer & Attention
+### Transformer
 
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
@@ -564,49 +564,39 @@
 - Attention as an RNN
   - [paper](https://arxiv.org/pdf/2405.13956)
   - [kimi](kimi/Attention%20as%20an%20RNN.md)
-
-### Long-Range attention
-
-- <https://huggingface.co/blog/long-range-transformers>
-  - 4 improvements on vanilla attention
-- [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
-  - chapter 2 very canonical
-- [LONG RANGE ARENA: A BENCHMARK FOR EFFICIENT TRANSFORMERS](https://arxiv.org/pdf/2011.04006.pdf)
-  - benchmark for evaluating model quality under long-context scenario
-  - [github](https://github.com/google-research/long-range-arena)
-- Linformer
-  - low-rank, add projection to v & k
-  - [paper](https://arxiv.org/pdf/2006.04768.pdf)
-  - [Johnson–Lindenstrauss lemm proof](https://cseweb.ucsd.edu/~dasgupta/papers/jl.pdf)
-  - [blog](https://tevenlescao.github.io/blog/fastpages/jupyter/2020/06/18/JL-Lemma-+-Linformer.html)
-  - [hf blog](https://huggingface.co/blog/long-range-transformers#linformer-self-attention-with-linear-complexity)
-- BigBird
-  - block sparse attention up to 4096
-  - [hf blog](https://huggingface.co/blog/big-bird#bigbird-block-sparse-attention)
-  - [hf code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/big_bird/modeling_big_bird.py#LL514C10-L514C10)
-
-### Rotary Position Encoding
-
-[notebook](transformer/rotary%20position%20embedding.ipynb)
-
-- [blog CN , key equation 11 and 13](https://kexue.fm/archives/8265)
-- [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
-- [roformer github](https://github.com/ZhuiyiTechnology/roformer)
-- [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
-
-### Alibi
-
-[notebook](transformer/alibi.ipynb)
-
-- [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
-- [attention implementation](https://github.com/jaketae/alibi/blob/main/alibi/attention.py)
+- Long-Range attention
+  - <https://huggingface.co/blog/long-range-transformers>
+    - 4 improvements on vanilla attention
+  - [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
+    - chapter 2 very canonical
+  - [LONG RANGE ARENA: A BENCHMARK FOR EFFICIENT TRANSFORMERS](https://arxiv.org/pdf/2011.04006.pdf)
+    - benchmark for evaluating model quality under long-context scenario
+    - [github](https://github.com/google-research/long-range-arena)
+  - Linformer
+    - low-rank, add projection to v & k
+    - [paper](https://arxiv.org/pdf/2006.04768.pdf)
+    - [Johnson–Lindenstrauss lemm proof](https://cseweb.ucsd.edu/~dasgupta/papers/jl.pdf)
+    - [blog](https://tevenlescao.github.io/blog/fastpages/jupyter/2020/06/18/JL-Lemma-+-Linformer.html)
+    - [hf blog](https://huggingface.co/blog/long-range-transformers#linformer-self-attention-with-linear-complexity)
+  - BigBird
+    - block sparse attention up to 4096
+    - [hf blog](https://huggingface.co/blog/big-bird#bigbird-block-sparse-attention)
+    - [hf code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/big_bird/modeling_big_bird.py#LL514C10-L514C10)
+- Rotary Position Encoding
+  - [blog CN , key equation 11 and 13](https://kexue.fm/archives/8265)
+  - [paper, aligned with blog CN](https://arxiv.org/pdf/2104.09864v4.pdf)
+  - [roformer github](https://github.com/ZhuiyiTechnology/roformer)
+  - [blog EN from eleuther AI](https://blog.eleuther.ai/rotary-embeddings/)
+- Alibi
+  - [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
+  - [attention implementation](https://github.com/jaketae/alibi/blob/main/alibi/attention.py)
 
 ### Base Model
 
 GPT,LlaMa
 
 - [The Illustrated GPT-2 (Visualizing Transformer Language Models)](https://jalammar.github.io/illustrated-gpt2/)
-- [nanoGPT](<(transformer/nanoGPT.md)>)
+- nanoGPT
   - [github](https://github.com/karpathy/nanoGPT)
 - GPT1
   - paper [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
@@ -659,9 +649,20 @@ GPT,LlaMa
 - DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
   - [paper](https://arxiv.org/pdf/2405.04434)
   - [kimi](kimi/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
+  1. Multi-head Latent Attention, low-rank key-value joint compression, decoupled RoPE strategy
+  2. DeepSeekMoE
+  3. DeepSeek-V2 Chat (SFT), DeepSeek-V2 Chat (RL), DeepSeek-V2-Lite, DeepSeekMath
 - DeepSeek-V3 Technical Report
   - [paper](https://arxiv.org/pdf/2412.19437)
   - [kimi](kimi/DeepSeek-V3%20Technical%20Report.md)
+  - architecture sim. to V2, MLA+DeepSeekMoE
+  - auxiliary-loss-free strategy for load balancing
+  - multi-token predicition for training, discard at inference
+  - DualPipe,
+  - FP8 mixed precision training framework,
+- Kimi k1.5: Scaling Reinforcement Learning with LLMs
+  - [paper](https://arxiv.org/pdf/2501.12599v1)
+  - [kimi](kimi/Kimi%20k1.5:%20Scaling%20Reinforcement%20Learning%20with%20LLMs.md)
 
 ### Supervised Fine-Tuning (SFT) Model
 
@@ -707,10 +708,9 @@ ChatGPT,Claude
 - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
   - [paper](https://arxiv.org/pdf/2501.12948)
   - [kimi](kimi/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
-  - 3 contributions:
-    - DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
-    - DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
-    - Distill Model
+  1. DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
+  2. DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
+  3. Distill Model
   - [DeepSeek R1 是怎么训练出来的？- R1 论文精读](https://blog.cnbang.net/tech/4160/)
   - [A brief look at the DeepSeek training pipeline](https://magazine.sebastianraschka.com/i/156484949/a-brief-look-at-the-deepseek-training-pipeline)
 
