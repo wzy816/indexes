@@ -655,14 +655,13 @@ GPT,LlaMa
 - DeepSeek-V3 Technical Report
   - [paper](https://arxiv.org/pdf/2412.19437)
   - [kimi](kimi/DeepSeek-V3%20Technical%20Report.md)
+  - [github](https://github.com/deepseek-ai/DeepSeek-V3)
   - architecture sim. to V2, MLA+DeepSeekMoE
   - auxiliary-loss-free strategy for load balancing
   - multi-token predicition for training, discard at inference
-  - DualPipe,
+  - DualPipe
   - FP8 mixed precision training framework,
-- Kimi k1.5: Scaling Reinforcement Learning with LLMs
-  - [paper](https://arxiv.org/pdf/2501.12599v1)
-  - [kimi](kimi/Kimi%20k1.5:%20Scaling%20Reinforcement%20Learning%20with%20LLMs.md)
+  - hardware designs
 
 ### Supervised Fine-Tuning (SFT) Model
 
@@ -707,12 +706,26 @@ ChatGPT,Claude
   - [system card](https://cdn.openai.com/o1-system-card-20240917.pdf)
 - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
   - [paper](https://arxiv.org/pdf/2501.12948)
+  - [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1)
   - [kimi](kimi/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
   1. DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
   2. DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
   3. Distill Model
   - [DeepSeek R1 是怎么训练出来的？- R1 论文精读](https://blog.cnbang.net/tech/4160/)
   - [A brief look at the DeepSeek training pipeline](https://magazine.sebastianraschka.com/i/156484949/a-brief-look-at-the-deepseek-training-pipeline)
+- Kimi k1.5: Scaling Reinforcement Learning with LLMs
+  - [paper](https://arxiv.org/pdf/2501.12599v1)
+  - [kimi](kimi/Kimi%20k1.5:%20Scaling%20Reinforcement%20Learning%20with%20LLMs.md)
+- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
+  - [paper](https://arxiv.org/pdf/2402.03300)
+  - [kimi](kimi/DeepSeekMath:%20Pushing%20the%20Limits%20of%20Mathematical%20Reasoning%20in%20Open%20Language%20Models.md)
+  - high-quality corpus with 120B tokens from common crawl, filter benchmark data; 4 iteration pipeline use fasttext model; largest
+  - deepseek-math-base 7B, trained on deepseek-coder-base-v1.5 7B
+  - SFT base to deepseek-math-instruct
+  - Group Relative Policy Optimization (GRPO)
+  - code training helps reasoning, arxiv papers don't
+  - unified paradigm
+  - A.1. Analysis of Reinforcement Learning :star:
 
 ### Quantization
 
@@ -841,6 +854,11 @@ ChatGPT,Claude
 - Llama-3.2-11B-Vision-Instruct
   - [huggingface](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/tree/main)
   - [alpindale](https://huggingface.co/alpindale/Llama-3.2-11B-Vision-Instruct)
+- JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation
+  - [paper](https://arxiv.org/pdf/2411.07975)
+  - [kimi](kimi/JanusFlow:%20Harmonizing%20Autoregression%20and%20Rectified%20Flow%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
+  - unified architecture of multimodal understanding and image generation;
+  - decoupled encoder
 
 ### System
 
