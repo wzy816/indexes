@@ -590,6 +590,7 @@
 - Alibi
   - [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
   - [attention implementation](https://github.com/jaketae/alibi/blob/main/alibi/attention.py)
+- ## Mixture of Experts, MoE
 
 ### Base Model
 
@@ -646,9 +647,13 @@ GPT,LlaMa
   - inference
     - [llama.cpp](https://github.com/ggerganov/llama.cpp)
     - [llama2.c](https://github.com/karpathy/llama2.c)
+- DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
+  - [paper](https://arxiv.org/pdf/2401.02954)
+  - [kimi](kimi/DeepSeek%20LLM:%20Scaling%20Open-Source%20Language%20Models%20with%20Longtermism.md)
 - DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
   - [paper](https://arxiv.org/pdf/2405.04434)
   - [kimi](kimi/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
+  - [hf](https://huggingface.co/deepseek-ai/DeepSeek-V2)
   1. Multi-head Latent Attention, low-rank key-value joint compression, decoupled RoPE strategy
   2. DeepSeekMoE
   3. DeepSeek-V2 Chat (SFT), DeepSeek-V2 Chat (RL), DeepSeek-V2-Lite, DeepSeekMath
@@ -656,6 +661,7 @@ GPT,LlaMa
   - [paper](https://arxiv.org/pdf/2412.19437)
   - [kimi](kimi/DeepSeek-V3%20Technical%20Report.md)
   - [github](https://github.com/deepseek-ai/DeepSeek-V3)
+  - [hf](https://huggingface.co/deepseek-ai/DeepSeek-V3)
   - architecture sim. to V2, MLA+DeepSeekMoE
   - auxiliary-loss-free strategy for load balancing
   - multi-token predicition for training, discard at inference
@@ -706,8 +712,8 @@ ChatGPT,Claude
   - [system card](https://cdn.openai.com/o1-system-card-20240917.pdf)
 - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
   - [paper](https://arxiv.org/pdf/2501.12948)
-  - [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1)
   - [kimi](kimi/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
+  - [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1)
   1. DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
   2. DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
   3. Distill Model
@@ -719,6 +725,8 @@ ChatGPT,Claude
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
   - [paper](https://arxiv.org/pdf/2402.03300)
   - [kimi](kimi/DeepSeekMath:%20Pushing%20the%20Limits%20of%20Mathematical%20Reasoning%20in%20Open%20Language%20Models.md)
+  - [github](https://github.com/deepseek-ai/DeepSeek-Math)
+  - [huggingface](https://huggingface.co/deepseek-ai/deepseek-math-7b-base)
   - high-quality corpus with 120B tokens from common crawl, filter benchmark data; 4 iteration pipeline use fasttext model; largest
   - deepseek-math-base 7B, trained on deepseek-coder-base-v1.5 7B
   - SFT base to deepseek-math-instruct
@@ -847,18 +855,31 @@ ChatGPT,Claude
   - [wayve](https://wayve.ai/science/gaia/)
 - Molmo
   - [paper](https://arxiv.org/pdf/2409.17146)
-  - [7B](https://huggingface.co/allenai/Molmo-7B-D-0924/)
+  - [hf 7B](https://huggingface.co/allenai/Molmo-7B-D-0924/)
   - [blog](https://molmo.allenai.org/blog)
 - Qwen2-VL-7B-Instruct
-  - [](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)
+  - [hf](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct)
 - Llama-3.2-11B-Vision-Instruct
   - [huggingface](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct/tree/main)
   - [alpindale](https://huggingface.co/alpindale/Llama-3.2-11B-Vision-Instruct)
+- Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation
+  - [paper](https://arxiv.org/pdf/2410.13848)
+  - [kimi](kimi/Janus:%20Decoupling%20Visual%20Encoding%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
+  - [github](https://github.com/deepseek-ai/Janus)
+  1. two independent visual encoding for understanding (SigLIP) and generation (VQ tokenizer), unified by same transformer
+  2. three-stage training
+- Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling
+  - [paper](https://arxiv.org/pdf/2501.17811)
+  - [kimi](kimi/Janus-Pro:%20Unified%20Multimodal%20Understanding%20and%20Generation%20with%20Data%20and%20Model%20Scaling.md)
+  - [github](https://github.com/deepseek-ai/Janus)
+  1. improvement on training strategies, data, and model size
 - JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation
   - [paper](https://arxiv.org/pdf/2411.07975)
   - [kimi](kimi/JanusFlow:%20Harmonizing%20Autoregression%20and%20Rectified%20Flow%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
-  - unified architecture of multimodal understanding and image generation;
-  - decoupled encoder
+  - [github](https://github.com/deepseek-ai/Janus)
+  1. unified architecture of multimodal understanding and image generation;
+  2. decoupled encoder
+  3. rectified flow
 
 ### System
 
