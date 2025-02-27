@@ -650,6 +650,10 @@ GPT,LlaMa
 - DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
   - [paper](https://arxiv.org/pdf/2401.02954)
   - [kimi](kimi/DeepSeek%20LLM:%20Scaling%20Open-Source%20Language%20Models%20with%20Longtermism.md)
+  1. base model and chat model, 7B 和 67B param, 架构 follow llama， RoPE, GQA
+  2. multi-step lr scheduler
+  3. scaling law study, model scale = non-embedding flops/token
+  4. comprehensive evaluations
 - DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
   - [paper](https://arxiv.org/pdf/2405.04434)
   - [kimi](kimi/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
