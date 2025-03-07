@@ -750,6 +750,10 @@ ChatGPT,Claude
 
 - [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/pdf/2209.07858.pdf)
 - [Jailbreaking Large Language Models with Symbolic Mathematics](https://arxiv.org/pdf/2409.11445)
+- Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs
+  - [paper](https://arxiv.org/pdf/2502.17424)
+  - [kimi](kimi/Emergent%20Misalignment:%20Narrow%20finetuning%20can%20produce%20broadly%20misaligned%20LLMs.md)
+  - finetune with insecure code, will result in a model act misaligned on wider range related to non-code
 
 ### Parameter-efficient Fine Tuning (PEFT)
 

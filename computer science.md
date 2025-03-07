@@ -102,11 +102,19 @@
 - <https://github.com/cruise-automation/webviz>
   - rviz in browser
 
+## h264
+
+- [RTP Payload Format for H.264 Video](https://datatracker.ietf.org/doc/html/rfc6184)
+- <http://blog.comrite.com/2019/06/05/h-264-profile-level-id-packetization-mode-nal/>
+- <https://melodyofnight.github.io/2017/07/16/H.264%20%E7%9A%84%20NAL%20%E5%8D%95%E5%85%83%E5%8F%8A%E7%A0%81%E6%B5%81%E7%BB%93%E6%9E%84/>
+- <https://blog.csdn.net/weixin_39399492/article/details/133165059>
+- <https://www.engeniustech.com/technical-papers/H.264-video-compression.pdf>
+
 ## C / C++
 
 - Expert C Programming - Deep C Secrets :book:
 - [core guidelines](https://isocpp.github.io/CppCoreGuidelines/)
-- [standards](https://isocpp.org/std/status)
+- [standards](https://isocpp.org/std/status)(https://datatracker.ietf.org/doc/html/rfc6184)
 
 ## Golang
 
