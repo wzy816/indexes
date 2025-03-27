@@ -58,6 +58,7 @@
 ## CNN
 
 - [Example of 2D Convolution](http://www.songho.ca/dsp/convolution/convolution2d_example.html)
+- [MOVE EVALUATION IN GO USING DEEP CONVOLUTIONAL NEURAL NETWORKS](https://arxiv.org/pdf/1412.6564)
 
 ## RNN
 
@@ -795,6 +796,7 @@ ChatGPT,Claude
 - LARGE LANGUAGE MODELS AS ANALOGICAL REASONERS
   - [paper](https://arxiv.org/pdf/2310.01714)
   - [kimi](kimi/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 ### Scaling / Emergent Behaviour
 
