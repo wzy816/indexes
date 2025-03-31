@@ -900,3 +900,7 @@ ChatGPT,Claude
   - [bolt](https://bolt.new/)
   - [cursor](https://www.cursor.com/)
   - [stackblitz](https://stackblitz.com/)
+
+### Format
+
+- [gguf](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md)
