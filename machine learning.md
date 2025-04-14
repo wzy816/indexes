@@ -842,6 +842,7 @@ ChatGPT,Claude
 - [planning for agents](https://blog.langchain.dev/planning-for-agents/)
 - Cognitive Architectures for Language Agents
   - [paper](https://arxiv.org/pdf/2309.02427)
+- [AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)
 
 ### multi modal
 

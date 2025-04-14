@@ -137,6 +137,7 @@
 - Problem Solving with Algorithms and Data Structures :book:
 - Python Programming on Win32 :book:
 - Cython :book:
+- [David Beazley - Lambda Calculus from the Ground Up - PyCon 2019](https://www.youtube.com/watch?v=pkCLMl0e_0k)
 
 ## Javascript & Typescript & Node
 
@@ -210,6 +211,7 @@
 - Empirical Studies in Information Visualization: Seven Scenarios :book:
   - help make right evaluation goal, pick right question
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+- [flexboxlabs](https://flexboxlabs.netlify.app/)
 
 ## App
 
