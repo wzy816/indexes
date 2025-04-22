@@ -591,7 +591,15 @@
 - Alibi
   - [paper](https://arxiv.org/pdf/2108.12409v2.pdf)
   - [attention implementation](https://github.com/jaketae/alibi/blob/main/alibi/attention.py)
-- ## Mixture of Experts, MoE
+
+### Mixture of Expert, MoE
+
+- [Mixture of Experts Explained](https://huggingface.co/blog/moe)
+- mixtral 8x7B
+  -[Mixtral of experts](https://mistral.ai/news/mixtral-of-experts)
+- Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
+  - [paper](https://arxiv.org/pdf/2101.03961)
+  - [kimi](kimi/Switch%20Transformers:%20Scaling%20to%20Trillion%20Parameter%20Models%20with%20Simple%20and%20Efficient%20Sparsity.md)
 
 ### Base Model
 
@@ -746,6 +754,12 @@ ChatGPT,Claude
   - [8bit hf model](https://huggingface.co/hivemind/gpt-j-6B-8bit)
   - [tutorial](https://github.com/sleekmike/Finetune_GPT-J_6B_8-bit/blob/master/finetune_gpt_j_6B_8bit.ipynb)
   - [perplexity](https://nbviewer.org/urls/huggingface.co/hivemind/gpt-j-6B-8bit/raw/main/check_perplexity.ipynb)
+- llama.cpp
+  - dequantization-based
+- T-MAC
+  - [github](https://github.com/microsoft/T-MAC/)
+  - kernel library to boost low-bit LLM inference on CPUs
+  - LUT-based
 
 ### Safety
 
@@ -843,7 +857,15 @@ ChatGPT,Claude
 - Cognitive Architectures for Language Agents
   - [paper](https://arxiv.org/pdf/2309.02427)
 - [AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)
-
+- An Illusion of Progress? Assessing the Current State of Web Agents
+  - [paper](https://arxiv.org/pdf/2504.01382)
+  - [kimi](kimi/An%20Illusion%20of%20Progress?%20Assessing%20the%20Current%20State%20of%20Web%20Agents.md)
+  - introduce Online-Mind2Web benchmark
+- UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+  - [paper](https://arxiv.org/pdf/2501.12326)
+  - [hf](https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B)
+  - [kimi](kimi/UI-TARS:%20Pioneering%20Automated%20GUI%20Interaction%20with%20Native%20Agents.md)
+  
 ### multi modal
 
 - clip
