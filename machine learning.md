@@ -548,6 +548,9 @@
 - [llm visualization](https://bbycroft.net/llm)
 - [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
 - [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs/) :star:
+- LLMs Get Lost In Multi-Turn Conversation
+  - [paper](https://arxiv.org/pdf/2505.06120)
+  - [kimi](kimi/LLMs%20Get%20Lost%20In%20Multi-Turn%20Conversation.md)
 
 ### Transformer
 
