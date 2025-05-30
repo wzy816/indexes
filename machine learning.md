@@ -551,6 +551,8 @@
 - LLMs Get Lost In Multi-Turn Conversation
   - [paper](https://arxiv.org/pdf/2505.06120)
   - [kimi](kimi/LLMs%20Get%20Lost%20In%20Multi-Turn%20Conversation.md)
+- [大规模语言模型：从理论到实践](https://intro-llm.github.io/)
+  - [v2](https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf)
 
 ### Transformer
 
