@@ -463,9 +463,9 @@
 
 - Population Based Training of Neural Networks :book:
 - [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/pdf/2402.15627)
-  - [kimi](kimi/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
+  - [kimi](paper/MegaScale:%20Scaling%20Large%20Language%20Model%20Training%20to%20More%20Than%2010,000%20GPUs.md)
 - [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277)
-  - [kimi](kimi/PyTorch%20FSDP:%20Experiences%20on%20Scaling%20Fully%20Sharded%20Data%20Parallel.md)
+  - [kimi](paper/PyTorch%20FSDP:%20Experiences%20on%20Scaling%20Fully%20Sharded%20Data%20Parallel.md)
 - [Fully Sharded Data Parallel: faster AI training with fewer GPUs](https://engineering.fb.com/2021/07/15/open-source/fsdp/)
 - vllm
   - [website](https://docs.vllm.ai/en/v0.4.2/index.html)
@@ -506,7 +506,7 @@
 - [NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles](https://arxiv.org/pdf/2106.11810.pdf)
 - Planning-oriented Autonomous Driving
   - [paper](https://arxiv.org/pdf/2212.10156)
-  - [kimi](kimi/Planning-oriented%20Autonomous%20Driving.md)
+  - [kimi](paper/Planning-oriented%20Autonomous%20Driving.md)
 
 ## Reinforcement Learning
 
@@ -550,7 +550,7 @@
 - [《大模型基础》](https://github.com/ZJU-LLMs/Foundations-of-LLMs/) :star:
 - LLMs Get Lost In Multi-Turn Conversation
   - [paper](https://arxiv.org/pdf/2505.06120)
-  - [kimi](kimi/LLMs%20Get%20Lost%20In%20Multi-Turn%20Conversation.md)
+  - [kimi](paper/LLMs%20Get%20Lost%20In%20Multi-Turn%20Conversation.md)
 - [大规模语言模型：从理论到实践](https://intro-llm.github.io/)
   - [v2](https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf)
 
@@ -569,7 +569,7 @@
   - [pytorch implementation](https://github.com/krasserm/perceiver-io)
 - Attention as an RNN
   - [paper](https://arxiv.org/pdf/2405.13956)
-  - [kimi](kimi/Attention%20as%20an%20RNN.md)
+  - [kimi](paper/Attention%20as%20an%20RNN.md)
 - Long-Range attention
   - <https://huggingface.co/blog/long-range-transformers>
     - 4 improvements on vanilla attention
@@ -604,7 +604,7 @@
   -[Mixtral of experts](https://mistral.ai/news/mixtral-of-experts)
 - Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity
   - [paper](https://arxiv.org/pdf/2101.03961)
-  - [kimi](kimi/Switch%20Transformers:%20Scaling%20to%20Trillion%20Parameter%20Models%20with%20Simple%20and%20Efficient%20Sparsity.md)
+  - [kimi](paper/Switch%20Transformers:%20Scaling%20to%20Trillion%20Parameter%20Models%20with%20Simple%20and%20Efficient%20Sparsity.md)
 
 ### Base Model
 
@@ -663,21 +663,21 @@ GPT,LlaMa
     - [llama2.c](https://github.com/karpathy/llama2.c)
 - DeepSeek LLM: Scaling Open-Source Language Models with Longtermism
   - [paper](https://arxiv.org/pdf/2401.02954)
-  - [kimi](kimi/DeepSeek%20LLM:%20Scaling%20Open-Source%20Language%20Models%20with%20Longtermism.md)
+  - [kimi](paper/DeepSeek%20LLM:%20Scaling%20Open-Source%20Language%20Models%20with%20Longtermism.md)
   1. base model and chat model, 7B 和 67B param, 架构 follow llama， RoPE, GQA
   2. multi-step lr scheduler
   3. scaling law study, model scale = non-embedding flops/token
   4. comprehensive evaluations
 - DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model
   - [paper](https://arxiv.org/pdf/2405.04434)
-  - [kimi](kimi/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
+  - [kimi](paper/DeepSeek-V2:%20A%20Strong,%20Economical,%20and%20Efficient%20Mixture-of-Experts%20Language%20Model.md)
   - [hf](https://huggingface.co/deepseek-ai/DeepSeek-V2)
   1. Multi-head Latent Attention, low-rank key-value joint compression, decoupled RoPE strategy
   2. DeepSeekMoE
   3. DeepSeek-V2 Chat (SFT), DeepSeek-V2 Chat (RL), DeepSeek-V2-Lite, DeepSeekMath
 - DeepSeek-V3 Technical Report
   - [paper](https://arxiv.org/pdf/2412.19437)
-  - [kimi](kimi/DeepSeek-V3%20Technical%20Report.md)
+  - [kimi](paper/DeepSeek-V3%20Technical%20Report.md)
   - [github](https://github.com/deepseek-ai/DeepSeek-V3)
   - [hf](https://huggingface.co/deepseek-ai/DeepSeek-V3)
   - architecture sim. to V2, MLA+DeepSeekMoE
@@ -730,7 +730,7 @@ ChatGPT,Claude
   - [system card](https://cdn.openai.com/o1-system-card-20240917.pdf)
 - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning
   - [paper](https://arxiv.org/pdf/2501.12948)
-  - [kimi](kimi/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
+  - [kimi](paper/DeepSeek-R1:%20Incentivizing%20Reasoning%20Capability%20in%20LLMs%20via%20Reinforcement%20Learning.md)
   - [huggingface](https://huggingface.co/deepseek-ai/DeepSeek-R1)
   1. DeepSeek-R1-Zero model, RL (GRPO) on Deepseek-V3-Base w/o SFT, but has poor readability and language mixing（未展开）
   2. DeepSeek-R1 Model, high-quality cold start data, pipeline=sft+rl+sft+rl
@@ -739,10 +739,10 @@ ChatGPT,Claude
   - [A brief look at the DeepSeek training pipeline](https://magazine.sebastianraschka.com/i/156484949/a-brief-look-at-the-deepseek-training-pipeline)
 - Kimi k1.5: Scaling Reinforcement Learning with LLMs
   - [paper](https://arxiv.org/pdf/2501.12599v1)
-  - [kimi](kimi/Kimi%20k1.5:%20Scaling%20Reinforcement%20Learning%20with%20LLMs.md)
+  - [kimi](paper/Kimi%20k1.5:%20Scaling%20Reinforcement%20Learning%20with%20LLMs.md)
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
   - [paper](https://arxiv.org/pdf/2402.03300)
-  - [kimi](kimi/DeepSeekMath:%20Pushing%20the%20Limits%20of%20Mathematical%20Reasoning%20in%20Open%20Language%20Models.md)
+  - [kimi](paper/DeepSeekMath:%20Pushing%20the%20Limits%20of%20Mathematical%20Reasoning%20in%20Open%20Language%20Models.md)
   - [github](https://github.com/deepseek-ai/DeepSeek-Math)
   - [huggingface](https://huggingface.co/deepseek-ai/deepseek-math-7b-base)
   - high-quality corpus with 120B tokens from common crawl, filter benchmark data; 4 iteration pipeline use fasttext model; largest
@@ -772,7 +772,7 @@ ChatGPT,Claude
 - [Jailbreaking Large Language Models with Symbolic Mathematics](https://arxiv.org/pdf/2409.11445)
 - Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs
   - [paper](https://arxiv.org/pdf/2502.17424)
-  - [kimi](kimi/Emergent%20Misalignment:%20Narrow%20finetuning%20can%20produce%20broadly%20misaligned%20LLMs.md)
+  - [kimi](paper/Emergent%20Misalignment:%20Narrow%20finetuning%20can%20produce%20broadly%20misaligned%20LLMs.md)
   - finetune with insecure code, will result in a model act misaligned on wider range related to non-code
 
 ### Parameter-efficient Fine Tuning (PEFT)
@@ -789,7 +789,7 @@ ChatGPT,Claude
   - [](https://www.nature.com/articles/s42256-023-00626-4)
 - Towards a Unified View of Parameter-Efficient Transfer Learning
   - [paper](https://arxiv.org/pdf/2110.04366)
-  - [kimi](kimi/Towards%20a%20Unified%20View%20of%20Parameter-Efficient%20Transfer%20Learning.md)
+  - [kimi](paper/Towards%20a%20Unified%20View%20of%20Parameter-Efficient%20Transfer%20Learning.md)
 - LoRA
   - [paper](https://arxiv.org/pdf/2106.09685.pdf)
   - [github](https://github.com/microsoft/LoRA)
@@ -814,7 +814,7 @@ ChatGPT,Claude
 - [提示词注入 VS 越狱](https://baoyu.io/translations/prompt-engineering/prompt-injection-vs-jailbreaking-difference)
 - LARGE LANGUAGE MODELS AS ANALOGICAL REASONERS
   - [paper](https://arxiv.org/pdf/2310.01714)
-  - [kimi](kimi/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
+  - [kimi](paper/Large%20Language%20Models%20as%20Analogical%20Reasoners.md)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 ### Scaling / Emergent Behaviour
@@ -834,6 +834,15 @@ ChatGPT,Claude
 - [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
   - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
   - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
+- TRL
+  - [huggingface](https://huggingface.co/docs/trl/main/en/)
+  - [GRPOTrainer](https://huggingface.co/docs/trl/main/en/grpo_trainer#trl.GRPOTrainer)
+- Understanding R1-Zero-Like Training: A Critical Perspective
+  - [paper](https://arxiv.org/pdf/2503.20783)
+  - [kimi](paper/Understanding%20R1-Zero-Like%20Training:%20A%20Critical%20Perspective.md)
+  - DeepSeek-V3-Base already exhibit ''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates
+  - introduce Dr.GRPO that removes the length and std normalization terms
+- [7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient](https://hkust-nlp.notion.site/simplerl-reason)
 
 ### Benchmark & Evaluation
 
@@ -844,7 +853,7 @@ ChatGPT,Claude
   - generation control
 - A Survey on Evaluation of Large Language Models
   - [paper](https://arxiv.org/pdf/2307.03109)
-  - [kimi](kimi/A%20Survey%20on%20Evaluation%20of%20Large%20Language%20Models.md)
+  - [kimi](paper/A%20Survey%20on%20Evaluation%20of%20Large%20Language%20Models.md)
   - chain-of-thought prompting approach, prompts language models to self-generate relevant exemplars or knowledge in the context, before proceeding to solve the given problem.
 
 ### Agent
@@ -864,12 +873,12 @@ ChatGPT,Claude
 - [AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)
 - An Illusion of Progress? Assessing the Current State of Web Agents
   - [paper](https://arxiv.org/pdf/2504.01382)
-  - [kimi](kimi/An%20Illusion%20of%20Progress?%20Assessing%20the%20Current%20State%20of%20Web%20Agents.md)
+  - [kimi](paper/An%20Illusion%20of%20Progress?%20Assessing%20the%20Current%20State%20of%20Web%20Agents.md)
   - introduce Online-Mind2Web benchmark
 - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
   - [paper](https://arxiv.org/pdf/2501.12326)
   - [hf](https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B)
-  - [kimi](kimi/UI-TARS:%20Pioneering%20Automated%20GUI%20Interaction%20with%20Native%20Agents.md)
+  - [kimi](paper/UI-TARS:%20Pioneering%20Automated%20GUI%20Interaction%20with%20Native%20Agents.md)
   
 ### multi modal
 
@@ -886,10 +895,10 @@ ChatGPT,Claude
   - Simple Open-Vocabulary Object Detection with Vision Transformers
   - [paper](https://arxiv.org/pdf/2205.06230.pdf)
   - [hf](https://huggingface.co/docs/transformers/main/en/model_doc/owlvit)
-  - [kimi](kimi/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
+  - [kimi](paper/Simple%20Open-Vocabulary%20Object%20Detection%20with%20Vision%20Transformers.md)
 - GAIA-1: A Generative World Model for Autonomous Driving
   - [paper](https://arxiv.org/pdf/2309.17080)
-  - [kimi](kimi/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
+  - [kimi](paper/GAIA-1:%20A%20Generative%20World%20Model%20for%20Autonomous%20Driving.md)
   - [wayve](https://wayve.ai/science/gaia/)
 - Molmo
   - [paper](https://arxiv.org/pdf/2409.17146)
@@ -902,18 +911,18 @@ ChatGPT,Claude
   - [alpindale](https://huggingface.co/alpindale/Llama-3.2-11B-Vision-Instruct)
 - Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation
   - [paper](https://arxiv.org/pdf/2410.13848)
-  - [kimi](kimi/Janus:%20Decoupling%20Visual%20Encoding%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
+  - [kimi](paper/Janus:%20Decoupling%20Visual%20Encoding%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
   - [github](https://github.com/deepseek-ai/Janus)
   1. two independent visual encoding for understanding (SigLIP) and generation (VQ tokenizer), unified by same transformer
   2. three-stage training
 - Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling
   - [paper](https://arxiv.org/pdf/2501.17811)
-  - [kimi](kimi/Janus-Pro:%20Unified%20Multimodal%20Understanding%20and%20Generation%20with%20Data%20and%20Model%20Scaling.md)
+  - [kimi](paper/Janus-Pro:%20Unified%20Multimodal%20Understanding%20and%20Generation%20with%20Data%20and%20Model%20Scaling.md)
   - [github](https://github.com/deepseek-ai/Janus)
   1. improvement on training strategies, data, and model size
 - JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation
   - [paper](https://arxiv.org/pdf/2411.07975)
-  - [kimi](kimi/JanusFlow:%20Harmonizing%20Autoregression%20and%20Rectified%20Flow%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
+  - [kimi](paper/JanusFlow:%20Harmonizing%20Autoregression%20and%20Rectified%20Flow%20for%20Unified%20Multimodal%20Understanding%20and%20Generation.md)
   - [github](https://github.com/deepseek-ai/Janus)
   1. unified architecture of multimodal understanding and image generation;
   2. decoupled encoder
