@@ -474,14 +474,18 @@
 - [Efficient Training on Multiple GPUs](https://huggingface.co/docs/transformers/perf_train_gpu_many)
 - [Large Model Training and Inference with DeepSpeed // Samyam Rajbhandari // LLMs in Prod Conference](https://www.youtube.com/watch?v=cntxC3g22oU)
 
-## Datasets
+## Datasets & Format
 
+- [gguf](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md)
 - [UCSD Anomaly Detection Dataset](http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm)
 - Evaluating Real-time Anomaly Detection Algorithms - the Numenta Anomaly Benchmark :book:
   - introduce numenta benchmark dataset and score system
   - <https://github.com/numenta/NAB/tree/master/data>
 - Toward Credible Evaluation of Anomaly-Based Intrusion-Detection Methods :book:
   - compare 3 intrusion detection methods: signature-based, anomaly-based and specification-based
+- [math23k](https://github.com/SCNU203/Math23k/tree/main)
+- [gsm8k](https://huggingface.co/datasets/openai/gsm8k)
+- [OpenThoughts3-1.2M](https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M)
 
 ## Visualization
 
@@ -507,11 +511,6 @@
 - Planning-oriented Autonomous Driving
   - [paper](https://arxiv.org/pdf/2212.10156)
   - [kimi](paper/Planning-oriented%20Autonomous%20Driving.md)
-
-## Reinforcement Learning
-
-- [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf)
-  - no true reward function
 
 ## transformer
 
@@ -827,23 +826,6 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2203.15556.pdf)
     - when model size doubled, training tokens should also be doubled
 
-### Reasoning
-
-- [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
-  - combine CoT and Act
-- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
-  - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
-  - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
-- TRL
-  - [huggingface](https://huggingface.co/docs/trl/main/en/)
-  - [GRPOTrainer](https://huggingface.co/docs/trl/main/en/grpo_trainer#trl.GRPOTrainer)
-- Understanding R1-Zero-Like Training: A Critical Perspective
-  - [paper](https://arxiv.org/pdf/2503.20783)
-  - [kimi](paper/Understanding%20R1-Zero-Like%20Training:%20A%20Critical%20Perspective.md)
-  - DeepSeek-V3-Base already exhibit ''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates
-  - introduce Dr.GRPO that removes the length and std normalization terms
-- [7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient](https://hkust-nlp.notion.site/simplerl-reason)
-
 ### Benchmark & Evaluation
 
 - GPT-Fathom: Benchmarking Large Language Models to Decipher the Evolutionary Path towards {GPT-4} and Beyond
@@ -938,6 +920,28 @@ ChatGPT,Claude
   - [cursor](https://www.cursor.com/)
   - [stackblitz](https://stackblitz.com/)
 
-### Format
+## Reinforcement Learning & Reasoning
 
-- [gguf](https://github.com/ggml-org/ggml/blob/master/docs/gguf.md)
+- [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/pdf/1706.03741.pdf)
+  - no true reward function
+- [Reinforcement Learning Guide](https://docs.unsloth.ai/basics/reinforcement-learning-guide)
+  - GRPO remove value model and reward model, more efficient with verifiable rewards
+  - "Luck Is All You Need" for RL
+
+- [REACT: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629.pdf)
+  - combine CoT and Act
+- [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/pdf/2305.10601.pdf)
+  - a new framework for inference, genearlized over CoT to allow looking ahead and backtracking for decision making
+  - [full paper review](https://www.youtube.com/watch?v=ut5kp56wW_4)
+- TRL
+  - [huggingface](https://huggingface.co/docs/trl/main/en/)
+  - [GRPOTrainer](https://huggingface.co/docs/trl/main/en/grpo_trainer#trl.GRPOTrainer)
+- Understanding R1-Zero-Like Training: A Critical Perspective
+  - [paper](https://arxiv.org/pdf/2503.20783)
+  - [kimi](paper/Understanding%20R1-Zero-Like%20Training:%20A%20Critical%20Perspective.md)
+  - DeepSeek-V3-Base already exhibit ''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates
+  - introduce Dr.GRPO that removes the length and std normalization terms
+- [7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient](https://hkust-nlp.notion.site/simplerl-reason)
+- GRPO code
+  - <https://colab.research.google.com/drive/1bfhs1FMLW3FGa8ydvkOZyBNxLYOu0Hev>
+  - <https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb>
