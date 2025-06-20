@@ -943,5 +943,9 @@ ChatGPT,Claude
   - introduce Dr.GRPO that removes the length and std normalization terms
 - [7B Model and 8K Examples: Emerging Reasoning with Reinforcement Learning is Both Effective and Efficient](https://hkust-nlp.notion.site/simplerl-reason)
 - GRPO code
-  - <https://colab.research.google.com/drive/1bfhs1FMLW3FGa8ydvkOZyBNxLYOu0Hev>
-  - <https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb>
+  - full param
+    - <https://colab.research.google.com/drive/1bfhs1FMLW3FGa8ydvkOZyBNxLYOu0Hev>
+    - <https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb>
+  - unsloth peft ? not verified
+    - <https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen2.5_(3B)-GRPO.ipynb#scrollTo=UKtp1N47FUWX>
+- [Introduction to the A* Algorithm](<https://www.redblobgames.com/pathfinding/a-star/introduction.html>)
