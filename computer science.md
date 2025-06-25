@@ -166,6 +166,7 @@
 
 - [Git Best Practices](https://gist.github.com/pandeiro/1552496)
 - version control with git :book:
+- [map of github](https://anvaka.github.io/map-of-github/#3.43/2.84/-60.34)
 
 ## Algorithm & OI
 
