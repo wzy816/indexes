@@ -862,6 +862,13 @@ ChatGPT,Claude
   - [paper](https://arxiv.org/pdf/2501.12326)
   - [hf](https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B)
   - [kimi](paper/UI-TARS:%20Pioneering%20Automated%20GUI%20Interaction%20with%20Native%20Agents.md)
+- [Claude Code 逆向工程研究仓库](https://github.com/shareAI-lab/analysis_claude_code)
+
+### Model Context Protocol
+
+- [official](https://modelcontextprotocol.io/)
+- [mcp-go](https://github.com/mark3labs/mcp-go/tree/main)
+- [MCP 实战：从零开始实现自己的 MCP Server](https://www.lixueduan.com/posts/ai/11-llm-app-mcp/)
   
 ### multi modal
 
@@ -950,3 +957,10 @@ ChatGPT,Claude
   - unsloth peft ? not verified
     - <https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen2.5_(3B)-GRPO.ipynb#scrollTo=UKtp1N47FUWX>
 - [Introduction to the A* Algorithm](<https://www.redblobgames.com/pathfinding/a-star/introduction.html>)
+
+## State Space Model
+
+- [On the Tradeoffs of SSMs and Transformers](https://goombalab.github.io/blog/2025/tradeoffs/)
+- [Introduction to State Space Models (SSM)](https://huggingface.co/blog/lbourdois/get-on-the-ssm-train)
+- [The Annotated S4](https://srush.github.io/annotated-s4/)
+  - [github](https://github.com/srush/annotated-s4)
