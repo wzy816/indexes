@@ -246,6 +246,11 @@
 - animation svg :book:
 - [anime.js](https://github.com/juliangarnier/anime)
 
+## webassembly
+
+- [Lin Clark: A Cartoon Intro to WebAssembly | JSConf EU](https://www.youtube.com/watch?v=HktWin_LPf4)
+- [Introduction to WebAssembly](https://rsms.me/wasm-intro)
+
 ## conference
 
 - [ranks](http://www.conferenceranks.com/)

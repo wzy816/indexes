@@ -22,6 +22,9 @@
 - 《An Introduction to Statistical Learning》
 - 《the elements of statistical learning》
 - [What’s Really Going On in Machine Learning? Some Minimal Models](https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/)
+- The Platonic Representation Hypothesis
+  - [paper](https://arxiv.org/pdf/2405.07987)
+  - [kimi](kimi/The%20Platonic%20Representation%20Hypothesis.md)
 
 ## Bayesian
 
