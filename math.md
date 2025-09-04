@@ -6,3 +6,4 @@
   - [the art of linear algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
 - [MIT 课程线性代数的笔记](https://github.com/zlotus/notes-linear-algebra)
 - 《Linear Algebra and Its Application》Gilbert Strang
+- [The Little Book of Linear Algebra](https://github.com/the-litte-book-of/linear-algebra)
