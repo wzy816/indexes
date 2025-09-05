@@ -689,6 +689,9 @@ GPT,LlaMa
   - DualPipe
   - FP8 mixed precision training framework,
   - hardware designs
+- gpt-oss
+  - [compare to gpt2](https://magazine.sebastianraschka.com/p/from-gpt-2-to-gpt-oss-analyzing-the)
+  - [hf](https://huggingface.co/openai/gpt-oss-20b)
 
 ### Supervised Fine-Tuning (SFT) Model
 
